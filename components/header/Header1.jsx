@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useReducer, useRef } from "react";
 import navData from "../../data/mainnav.json";
 import ScrollProgress from "../common/ScrollProgress";
+import { useTranslation } from '../../app/useTranslation'
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -57,6 +58,12 @@ function reducer(state, action) {
 
 const Header1 = ({data}) => {
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  const { translation } = useTranslation()
+
+  const t = useMemo(() => translation?.header?.navigation ?? {}, [translation])
+
+
   const headerRef = useRef(null);
 
   const handleScroll = () => {

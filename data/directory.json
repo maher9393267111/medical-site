@@ -20,7 +20,52 @@
             { "label": "Gallery", "href": "/gallery" },
             { "label": "School Calendar", "href": "/calendar" },
             { "label": "Contact", "href": "/contact" }
-          ]
+          ],
+          "navs":[
+            {
+                "id": "1",
+                "label": "Home",
+                "link": "/"
+            },
+            {
+                "id": "2",
+                "label": "Blogs",
+                "link": "/blog",
+                "icon": false
+            },
+            {
+                "id": "3",
+                "label": "services",
+                "link": "/service",
+                "icon": false
+            },
+            {
+                "id": "4",
+                "label": "Case Study",
+                "link": "/casestudy",
+                "icon": false
+            },
+            {
+                "id": "5",
+                "label": "Faqs",
+                "link": "/faqs",
+                "icon": false
+            },
+            {
+                "id": "6",
+                "label": "About",
+                "link": "/about",
+                "icon": false
+            },
+            {
+                "id": "7",
+                "label": "Contact",
+                "link": "/contact",
+                "icon": false
+            }
+        ]
+
+
         }
       },
       "home": {
@@ -235,7 +280,52 @@
             { "label": "معرض الصور", "href": "/gallery" },
             { "label": "التقويم الدراسي", "href": "/calendar" },
             { "label": "تواصل معنا", "href": "/contact" }
-          ]
+          ],
+
+          "navs":[
+            {
+                "id": "1",
+                "label": "الصفحة الرئيسية",
+                "link": "/"
+            },
+            {
+                "id": "2",
+                "label": "الكورسات",
+                "link": "/blog",
+                "icon": false
+            },
+            {
+                "id": "3",
+                "label": "الخدمات",
+                "link": "/service",
+                "icon": false
+            },
+            {
+                "id": "4",
+                "label": "المنتجات",
+                "link": "/casestudy",
+                "icon": false
+            },
+            {
+                "id": "5",
+                "label": "Faqs",
+                "link": "/faqs",
+                "icon": false
+            },
+            {
+                "id": "6",
+                "label": "من نحن",
+                "link": "/about",
+                "icon": false
+            },
+            {
+                "id": "7",
+                "label": "تواصل معنا",
+                "link": "/contact",
+                "icon": false
+            }
+        ]
+
         }
       },
       "home": {

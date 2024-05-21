@@ -6,7 +6,7 @@ import { groq } from "next-sanity";
 import { client } from "../../../lib/sanity.client";
 import MainBlogs from "./mainBlogs";
 import { off } from "process";
-export default function page() {
+export default function BlogPage() {
   const searchParams = useSearchParams();
   const cat = searchParams.get("category");
   const tag = searchParams.get("tag");

@@ -119,6 +119,7 @@ const AboutpageMain = ({ aboutOneData ,steps  , partners ,awards ,discover}) => 
           {partners?.map((partner, index) => {
 return (
             <div
+            key={index}
               className="col-lg-3 col-sm-6 wow animate fadeInDown"
               data-wow-delay="200ms"
               data-wow-duration="1500ms"

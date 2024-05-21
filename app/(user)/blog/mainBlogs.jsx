@@ -6,7 +6,7 @@ import urlFor from '../../../lib/urlFor';
 import { useRouter } from "next/navigation";
 
 
-const Blogpage = ({blogs ,catsData ,tagsData ,newpostsData ,loadMore ,isparams }) => {
+const BlogpageMain = ({blogs ,catsData ,tagsData ,newpostsData ,loadMore ,isparams }) => {
   useWow()
 
 
@@ -292,4 +292,4 @@ return (
   );
 };
 
-export default Blogpage;
+export default BlogpageMain;
