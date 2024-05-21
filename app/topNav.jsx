@@ -4,7 +4,7 @@ import LanguageToggle from './selectLanguage'
 import english from '../public/assets/english.png'
 import arabic from '../public/assets/arabic.png'
 
-export default function topNav() {
+export default function TopNav() {
 
 
     

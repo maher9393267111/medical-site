@@ -63,7 +63,7 @@ const Header1 = ({data}) => {
 
   const t = useMemo(() => translation?.header?.navigation ?? {}, [translation])
 
-
+console.log("TRANSLATE--->" , t)
   const headerRef = useRef(null);
 
   const handleScroll = () => {
@@ -137,7 +137,7 @@ const Header1 = ({data}) => {
                 <ul className="main-menu">
 
 
-                {navData?.map((data ,index) => {
+                {t.navItems?.map((data ,index) => {
                 
                 const { id, label, link, icon, subMenu } = data;
                   return (
@@ -997,7 +997,7 @@ const Header1 = ({data}) => {
           </div>
           <div className="main-menu d-lg-flex d-none">
             <ul className="menu-list">
-              {navData?.map((data) => {
+              {t.navItems?.map((data) => {
                 const { id, label, link, icon, subMenu } = data;
                 return (
                   <li
