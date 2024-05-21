@@ -3,51 +3,37 @@
         "id": "1",
         "label": "Home",
         "link": "/"
-     
-     
     },
-
     {
         "id": "2",
         "label": "Blogs",
         "link": "/blog",
         "icon": false
     },
-
     {
         "id": "3",
         "label": "services",
         "link": "/service",
         "icon": false
     },
- 
-
     {
         "id": "4",
         "label": "Case Study",
         "link": "/casestudy",
         "icon": false
     },
- 
     {
         "id": "5",
         "label": "Faqs",
         "link": "/faqs",
         "icon": false
     },
-
     {
         "id": "6",
         "label": "About",
         "link": "/about",
         "icon": false
     },
- 
- 
-
-
-
- 
     {
         "id": "7",
         "label": "Contact",

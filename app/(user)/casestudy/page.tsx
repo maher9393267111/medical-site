@@ -24,13 +24,13 @@ const contactquery = groq`
   } | order(_createdAt desc)
 `;
 
-export const metadata = {
-  icons: {
-    icon: "/assets/img/sm-logo.svg",
-  },
-};
+// export const metadata = {
+//   icons: {
+//     icon: "/assets/img/sm-logo.svg",
+//   },
+// };
 
-export default function page() {
+export default function Case() {
   const searchParams = useSearchParams();
 
   const [cases, setCases] = useState([]);
