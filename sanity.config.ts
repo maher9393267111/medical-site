@@ -7,8 +7,8 @@ import {schemaTypes} from './schemas'
 import { myTheme } from './theme';
 import StudioNavbar from './components/StudioNavbar';
 import { iconPicker } from "sanity-plugin-icon-picker";
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
+const projectId = "hekqjt0e";
+const dataset = "production";
 import { structureTool } from 'sanity/structure'
 import { media } from 'sanity-plugin-media'
 import {  mediaAssetSource } from 'sanity-plugin-media'
