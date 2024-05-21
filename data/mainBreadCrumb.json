@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "slug": "/service",
+        "name": "SOLUTIONS",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+ 
+  
+    
+  
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/casestudy",
+        "pageTitle": "Navigating Growth A Startup Agency Success Story. on Creative & unique ideas.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    
+    {
+        "id": "9",
+        "name": "BLOG",
+        "slug": "/blog",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+ 
+    {
+        "id": "12",
+        "name": "ABOUT US",
+        "slug": "/about",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#about-section"
+    },
+  
+
+    {
+        "id": "22",
+        "name": "faq",
+        "slug": "/faqs",
+        "pageTitle": "Frequently Asked Questions.",
+        "section_down_scroll": "#faq-section"
+    },
+
+   
+ 
+    {
+        "id": "27",
+        "name": "CONTACT US",
+        "slug": "/contact",
+        "pageTitle": "Let’s Connecting With Zenfy.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "28",
+        "name": "ABOUT US",
+        "slug": "/about",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#about-section"
+    }
+]

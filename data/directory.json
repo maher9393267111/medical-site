@@ -1,0 +1,429 @@
+{
+    "en": {
+      "header": {
+        "contactHeader": {
+          "name": "Azza Supplementary School",
+          "labels": {
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone",
+            "addressTimes": "(Term dates between 10am - 2pm only)"
+          }
+        },
+        "navigation": {
+          "name": "Azza Supplementary School",
+          "cta": "Enroll today",
+          "navItems": [
+            { "label": "Home", "href": "/" },
+            { "label": "About", "href": "/about" },
+            { "label": "Programs" },
+            { "label": "Gallery", "href": "/gallery" },
+            { "label": "School Calendar", "href": "/calendar" },
+            { "label": "Contact", "href": "/contact" }
+          ]
+        }
+      },
+      "home": {
+        "hero": {
+          "title": "Welcome to Azza Supplementary School",
+          "subtitle": "Empowering Communities, Enriching Education",
+          "description1": "We're a dedicated non-profit focused on Arabic language education. Through a balanced blend of cultural enrichment and academic growth, we shape confident learners primed to contribute actively to society.",
+          "description2": "Join us, where learning goes beyond textbooks, fostering community, linguistic identity, and a harmonious collective future.",
+          "rating1": "Rated 5 stars by over",
+          "rating2": "100 parents",
+          "cta": "Enroll today",
+          "arabicSchoolReviewLabel": "Arabic School Review"
+        },
+        "homeFeaturesBlock": {
+          "title": "Beyond Academics: Growing Minds, Hearts, and Identities.",
+          "description": "We embrace a holistic approach to education, rooted in academic excellence and personal development, combining standard academics with unique community engagement to cultivate an environment where students excel on all fronts.",
+          "features": [
+            "Arabic language",
+            "Academic support",
+            "Cultural studies",
+            "Personal growth",
+            "Community bonding",
+            "Confidence-building",
+            "Diverse activities",
+            "Experienced staff",
+            "Excellence recognition"
+          ],
+          "blocks": [
+            {
+              "tagline": "Beyond Academics",
+              "headline": "Fostering Every Child's Potential",
+              "text": "We emphasize academic achievement alongside personal development, nurturing resilience, creativity, and critical thinking. Our commitment lies in equipping students with the skills necessary for success in and out of the classroom.",
+              "action": "Explore Our Ethos",
+              "image1Alt": "Students engaged in an interactive class",
+              "image2Alt": "'tudents participating in a group activity"
+            },
+            {
+              "tagline": "Community and Belonging",
+              "headline": "Creating Community Leaders",
+              "text": "By prioritizing leadership, teamwork, and social responsibility, we prepare our students to take active roles in their communities. Our emphasis on ethical conduct and community involvement inspires students to contribute positively to society and cultivate meaningful relationships.",
+              "action": "Become Part of Our Story",
+              "image1Alt": "Child smiling in a classroom setting",
+              "image2Alt": "Students enjoying a meal together"
+            }
+          ]
+        },
+        "staffAssurances": {
+          "title": "Your children are in good hands",
+          "subtitle": "Meet the teachers behind Azza",
+          "description": "Our teachers are the heart and soul of Azza. They are the ones who make our school a safe, fun, and engaging place for your children to learn and grow. We are proud to have a strong team of experienced, passionate, and dedicated individuals.",
+          "title2": "What Sets Our Teachers Apart: Promises We Keep",
+          "assurances": [
+            "Over three years of hands-on teaching experience",
+            "Genuine passion for guiding and inspiring children",
+            "Devotion to ensuring a positive and supportive classroom for every student",
+            "Fluent in Arabic and English",
+            "Training working with children with special needs"
+          ],
+          "action": "Meet the team"
+        },
+        "featuredPrograms": {
+          "title": "The best programs for your child",
+          "description": "We offer a core curriculum of programs for children of all ages. Our programs are designed to help your child grow and develop in a safe and nurturing environment."
+        },
+        "testimonials": {
+          "title": "Parent Testimonials",
+          "description": "Don't just take our word for it. Hear from the parents about the positive and lasting impact Azza has on their children's lives."
+        },
+        "faqs": {
+          "title": "Frequently asked questions",
+          "description": " Seeking more formFields? Explore our FAQ section for insights on program specifics, scheduling, and our educational approach."
+        }
+      },
+      "about": {
+        "hero": {
+          "title": "Why Azza?",
+          "description": "Choosing Azza means investing in a comprehensive education grounded in core values of excellence, inclusivity, and lifelong learning. <br /><br />Established in 1995 by a group of dedicated refugee women, began its journey by teaching children Arabic language and cultural studies.",
+          "description2": "<p>These modest beginnings in North Kensington burgeoned into a school that has since been a beacon of learning for hundreds of children. Every Saturday, from 10 am to 2 pm at KAA, children aged 6-16 receive an education that spans subjects beyond just Arabic, delving into mainstream school curriculum subjects such as English and Mathematics.</p><p> Alongside these academic pursuits, the school offers enriching activities like football, gymnastics, and engagement sessions for parents, fostering a holistic development environment. Our purpose extends beyond mere academic assistance. We aim to bolster the cultural identity, self-esteem, and confidence of children, predominantly from the Sudanese community and other communities within Kensington and Chelsea.</p><p>Many of our learners hail from immigrant backgrounds, often with English as their second language, making our English and Maths classes doubly essential for both them and their Arabic-speaking parents.</p><p>Beyond the classroom, Azza Supplementary School promotes camaraderie and understanding; we've observed heartening bonds forged between families, stemming from friendships initiated within our school walls. These relationships have proven invaluable, enhancing self-confidence, reducing feelings of isolation, and creating an inclusive environment where children and parents from diverse backgrounds intermingle seamlessly.</p>"
+        },
+        "stats": {
+          "title": "Where Your Child's Academic Success Begins",
+          "description": "Every aspect of our environment is thoughtfully designed with your child's success in mind.",
+          "stats": [
+            { "label": "Teachers", "value": "12+" },
+            { "label": "Average years of teacher experience", "value": "3+" },
+            { "label": "Student to teacher ratio", "value": "15:1" },
+            {
+              "label": "Students at Russel Group Universities",
+              "value": "20+"
+            },
+            { "label": "Years in Operation", "value": "28+" },
+            { "label": "Children Supported", "value": "500+" }
+          ]
+        },
+        "staff": {
+          "title": "Meet the awesome staff behind Azza",
+          "description": "Our teachers are the heart and soul of Azza. They are the ones who make our school a safe, fun, and engaging place for your children to learn and grow."
+        }
+      },
+      "gallery": {
+        "title": "Cherished Moments at Our School",
+        "subtitle": "Experience Our Vibrant School Life",
+        "allImages": "View All Images"
+      },
+      "calendar": {
+        "title": "School Calendar",
+        "description": "Access the comprehensive school calendar of Azza Supplementary School to keep up-to-date with upcoming events, holidays, examinations, and other important academic dates throughout the year."
+      },
+      "contact": {
+        "hero": {
+          "title": "Contact us today",
+          "subtitle": "We'd love to hear from you",
+          "description": "Whether you have questions, feedback, or stories to share, we're here for you. Our community thrives on your insights, and we're committed to ensuring your experience with us is positive, impactful, and meaningful.",
+          "formFields": [
+            {
+              "name": "from_name",
+              "label": "Name",
+              "type": "text",
+              "placeholder": "Your name",
+              "required": true
+            },
+            {
+              "name": "from_email",
+              "label": "Email",
+              "type": "email",
+              "placeholder": "Your email address",
+              "required": true
+            },
+            {
+              "name": "from_phone",
+              "label": "Phone",
+              "type": "text",
+              "placeholder": "Your phone number",
+              "required": true
+            },
+            {
+              "name": "message",
+              "label": "Message",
+              "type": "textarea",
+              "placeholder": "Message",
+              "required": true
+            }
+          ],
+          "sendMessageBtn": "Send message",
+          "sendMessage": "Send us a message",
+          "wellGetBackToYou": "We'll get back to you within 24 hours.",
+          "messageSuccess": "Thank you for your message. We will get back to you shortly.",
+          "messageError": "Sorry, there was an error sending your message. Please try again."
+        },
+        "information": {
+          "title": "Contact information",
+          "description": " Reach out to us for any inquiries or support. We're here to assist and guide you through any needed information or help concerning our educational services and community involvement.",
+          "labels": {
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone",
+            "addressTimes": "(Term dates between 10am - 2pm only)"
+          }
+        }
+      },
+      "enroll": {
+        "hero": {
+          "title": "Enroll Today",
+          "subtitle": "Begin Your Educational Journey",
+          "description": "Ready to take the next step in your education? We’re here to guide you through the enrollment process. Our team is dedicated to providing a smooth transition into our community, ensuring that your academic journey is enriching, engaging, and rewarding from the very start.",
+          "messageSuccess": "Thank you for your application. We will get back to you shortly.",
+          "messageError": "Sorry, there was an error submitting your application. Please try again."
+        }
+      },
+      "footer": {
+        "title": "Empowering Communities, Enriching Education",
+        "labels": {
+          "programs": "Programs",
+          "siteLinks": "Site Links",
+          "contactUs": "Contact us",
+          "address": "Address",
+          "email": "Email",
+          "phone": "Phone",
+          "addressTimes": "(Term dates between 10am - 2pm only)"
+        },
+        "siteLinksDropdown": [
+          { "label": "Home", "href": "/" },
+          { "label": "About us", "href": "/about" },
+          { "label": "Gallery", "href": "/gallery" },
+          { "label": "School Calendar", "href": "/calendar" },
+          { "label": "Safeguarding Policy", "href": "/policy" },
+          { "label": "Safeguarding Procedure", "href": "/procedure" },
+          { "label": "Enrollment", "href": "/enroll" },
+          { "label": "Resources", "href": "/resources" },
+          { "label": "Contact us", "href": "/contact" }
+        ]
+      }
+    },
+    "ar": {
+      "header": {
+        "contactHeader": {
+          "name": "مدرسة عزة التكميلية",
+          "labels": {
+            "address": "العنوان",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "addressTimes": "(مواعيد الفصل من ١٠ صباحًا حتى ٢ ظهرًا فقط)"
+          }
+        },
+        "navigation": {
+          "name": "مدرسة عزة التكميلية",
+          "cta": "التسجيل",
+          "navItems": [
+            { "label": "الصفحة الرئيسية", "href": "/" },
+            { "label": "معلومات عنا", "href": "/about" },
+            { "label": "البرامج" },
+            { "label": "معرض الصور", "href": "/gallery" },
+            { "label": "التقويم الدراسي", "href": "/calendar" },
+            { "label": "تواصل معنا", "href": "/contact" }
+          ]
+        }
+      },
+      "home": {
+        "hero": {
+          "title": "أهلاً بكم في مدرسة عزة التكميلية",
+          "subtitle": "نمكن المجتمعات ونثري التعليم",
+          "description1": "منظمتنا غير الربحية متخصصة في تعليم اللغة العربية وتنشئة متعلمين واثقين، قادرين على الإسهام بفاعلية في المجتمع، من خلال مزيج متوازن من الإثراء الثقافي والنمو الأكاديمي.",
+          "description2": "انضموا إلينا في تجربة تعليمية متكاملة تتجاوز الكتب المدرسية، وتعمل على تنمية روح المجتمع والهوية اللغويةة، وصياغة مستقبل جماعي متناغم.",
+          "rating1": "حازت على تقييم خمس نجوم من أكثر من",
+          "rating2": "100 ولي أمر",
+          "cta": "التسجيل",
+          "arabicSchoolReviewLabel": "تقييمات المدرسة العربية"
+        },
+        "homeFeaturesBlock": {
+          "title": "ما وراء الأكاديميات: نمو العقل والقلب والهوية",
+          "description": "نتبنى نهجاً شاملاً في التعليم يركز على التميز الأكاديمي والتطور الشخصي، مدمجين التعليم التقليدي مع تفاعل مجتمعي فريد لخلق بيئة تسمح للطلاب بالتفوق في كافة المجالات.",
+          "features": [
+            "اللغة العربية",
+            "الدعم الأكاديمي",
+            "الدراسات الثقافية",
+            "النمو الشخصي",
+            "تعزيز الترابط المجتمعي",
+            "تنمية الثقة بالنفس",
+            "أنشطة متنوعة",
+            "فريق تعليمي ذو خبرة",
+            "تقدير التميز"
+          ],
+          "blocks": [
+            {
+              "tagline": "ما وراء الأكاديميات",
+              "headline": "نمي إمكانيات كل طفل",
+              "text": "نركز على التحصيل الأكاديمي والتطور الشخصي، معززين القدرة على التكيف والإبداع والتفكير النقدي. نحرص على تزويد طلابنا بالمهارات الضرورية للنجاح داخل الفصول الدراسية وخارجها.",
+              "action": "استكشف رؤيتنا",
+              "image1Alt": "طلاب يشاركون في فصل دراسي تفاعلي",
+              "image2Alt": "طلاب يشاركون في نشاط جماعي"
+            },
+            {
+              "tagline": "المجتمع والانتماء",
+              "headline": "نشأة قادة المجتمع",
+              "text": "نعطي الأولوية للقيادة والعمل الجماعي والمسؤولية الاجتماعية، مُعدّين طلابنا للعب أدوار فعالة في مجتمعاتهم. يُلهم تركيزنا على السلوك الأخلاقي والمشاركة المجتمعية الطلاب للإسهام بشكل إيجابي في المجتمع وبناء علاقات معنوية.",
+              "action": "انضم إلى قصتنا",
+              "image1Alt": "طفل يبتسم في فصل دراسي",
+              "image2Alt": "طلاب يستمتعون بوجبة معًا"
+            }
+          ]
+        },
+        "staffAssurances": {
+          "title": "أطفالكم بأيدٍ أمينة",
+          "subtitle": "تعرفوا على معلمي مدرسة عزة",
+          "description": "معلمونا هم قلب وروح مدرسة عزة. هم من يجعلون مدرستنا مكانًا آمنًا وممتعًا وتفاعليًا لتعلم أطفالكم ونموهم. نفخر بوجود فريق قوي من الأفراد ذوي الخبرة والشغف والتفاني.",
+          "title2": "ما يميز معلمينا: وعود نحافظ عليها",
+          "assurances": [
+            "خبرة تدريس عملية تزيد عن ثلاث سنوات",
+            "شغف حقيقي بتوجيه وإلهام الأطفال",
+            "التفاني في توفير بيئة صفية إيجابية وداعمة لكل طالب",
+            "إتقان اللغة العربية والإنجليزية",
+            "تدريب في العمل مع الأطفال ذوي الاحتياجات الخاصة"
+          ],
+          "action": "تعرفوا على فريقنا"
+        },
+        "featuredPrograms": {
+          "title": "أفضل البرامج لطفلك",
+          "description": "نقدم منهجًا دراسيًا شاملاً للأطفال في كافة الأعمار. تم تصميم برامجنا لمساعدة طفلك على النمو والتطور في بيئة آمنة ومحفزة."
+        },
+        "testimonials": {
+          "title": "شهادات الآباء",
+          "description": "ليس عليك أن تأخذ كلامنا فقط، بل استمع لما يقوله الآباء عن التأثير الإيجابي والباقي الذي تركته مدرسة عزة في حياة أبنائهم."
+        },
+        "faqs": {
+          "title": "الأسئلة الشائعة",
+          "description": "هل ترغب في الحصول على معلومات أكثر؟ تصفح قسم الأسئلة الشائعة لدينا لاكتشاف المزيد حول تفاصيل البرنامج، الجداول الزمنية، ومنهجيتنا التعليمية."
+        }
+      },
+      "about": {
+        "hero": {
+          "title": "لماذا مدرسة عزة؟",
+          "description": "اختيار مدرسة عزة يعني الاستثمار في تعليم شامل مبني على قيم الامتياز، الشمولية، والتعلم المستمر. <br /><br />تأسست المدرسة في عام 1995 على يد مجموعة من النساء اللاجئات المتفانيات، وبدأت رحلتها بتعليم الأطفال اللغة العربية والدراسات الثقافية.",
+          "description2": "<p>هذه البدايات المتواضعة في شمال كنسينغتون تطورت إلى مدرسة أصبحت منارة للتعلم لمئات الأطفال. كل يوم سبت، من الساعة 10 صباحًا حتى 2 ظهرًا في مدرسة KAA، يتلقى الأطفال من سن 6 إلى 16 سنة تعليمًا يمتد لمواد تتجاوز اللغة العربية، ليشمل مواد المنهج الدراسي العام مثل الإنجليزية والرياضيات.</p><p> إلى جانب هذه المساعي الأكاديمية، تقدم المدرسة أنشطة تثرية مثل كرة القدم، الجمباز، وجلسات تفاعلية للأهالي، مما يعزز بيئة تطور شامل. هدفنا يتجاوز المساعدة الأكاديمية؛ نهدف إلى دعم الهوية الثقافية والثقة بالنفس والاعتزاز للأطفال، وبشكل أساسي من المجتمع السوداني وغيره من المجتمعات في كنسينغتون وتشيلسي.</p><p>العديد من طلابنا ينحدرون من خلفيات مهاجرة، وغالبًا ما يكون الإنجليزية لغتهم الثانية، مما يجعل دروس الإنجليزية والرياضيات أساسية لهم ولأهاليهم الناطقين بالعربية.</p><p>خارج الفصول الدراسية، تروج مدرسة عزة التكاملية للروابط الاجتماعية والتفاهم؛ لقد لاحظنا روابط مشجعة تنشأ بين العائلات نتيجة للصداقات التي بدأت داخل أسوار مدرستنا. هذه العلاقات ثمينة، حيث تعزز الثقة بالنفس، تقلل من الشعور بالعزلة، وتخلق بيئة شاملة حيث يتفاعل الأطفال والأهالي من خلفيات متنوعة بسلاسة.</p>"
+        },
+        "stats": {
+          "title": "منطلق النجاح الأكاديمي لطفلك",
+          "description": "كل جانب في بيئتنا مصمم بعناية لضمان نجاح طفلك.",
+          "stats": [
+            { "label": "المعلمون", "value": "١٢+" },
+            { "label": "متوسط سنوات خبرة المعلمين", "value": "٣+" },
+            { "label": "نسبة الطلاب إلى المعلم", "value": "١٥:١" },
+            {
+              "label": "الطلاب في جامعات المجموعة راسل",
+              "value": "٢٠+"
+            },
+            { "label": "سنوات العمل", "value": "٢٨+" },
+            { "label": "الأطفال المستفيدون", "value": "٥٠٠+" }
+          ]
+        }
+      },
+      "gallery": {
+        "title": "لحظات لا تُنسى في مدرستنا",
+        "subtitle": "تجول افي مدرستنا النابضة بالحيوية",
+        "allImages": "جميع الصور"
+      },
+      "calendar": {
+        "title": "التقويم المدرسي",
+        "description": "اطلع على التقويم المدرسي الشامل لمدرسة عزة التكميلية لتكون على اطلاع دائم بالأحداث القادمة، العطلات، الامتحانات، والتواريخ الأكاديمية الهامة طوال العام."
+      },
+      "contact": {
+        "hero": {
+          "title": "تواصلوا معنا",
+          "subtitle": "نحن هنا لخدمتكم",
+          "description": "سواء كانت لديكم أسئلة، تعليقات، أو مشاركات ترغبون في طرحها، يسعدنا أن نسمع منكم. مجتمعنا يزدهر بفضل مشاركاتكم ونحن ملتزمون بتقديم تجربة تعليمية غنية ومؤثرة تسهم في إثراء مسيرتكم التعليمية.",
+          "formFields": [
+            {
+              "name": "from_name",
+              "label": "الاسم",
+              "type": "text",
+              "placeholder": "اسمك",
+              "required": true
+            },
+            {
+              "name": "from_email",
+              "label": "البريد الإلكتروني",
+              "type": "email",
+              "placeholder": "عنوان بريدك الإلكتروني",
+              "required": true
+            },
+            {
+              "name": "from_phone",
+              "label": "الهاتف",
+              "type": "text",
+              "placeholder": "رقم هاتفك",
+              "required": true
+            },
+            {
+              "name": "message",
+              "label": "الرسالة",
+              "type": "textarea",
+              "placeholder": "رسالتك",
+              "required": true
+            }
+          ],
+          "sendMessageBtn": "أرسل الرسالة",
+          "sendMessage": "ابعث برسالتك إلينا",
+          "wellGetBackToYou": "سنرد على استفسارك خلال ٢٤ ساعة.",
+          "messageSuccess": "شكراً لتواصلك معنا. سنقوم بالرد عليك في أقرب وقت.",
+          "messageError": "نأسف، حصل خطأ في إرسال رسالتك. يرجى المحاولة مجدداً."
+        },
+        "information": {
+          "title": "معلومات الاتصال",
+          "description": "تواصل معنا لأي استفسارات أو دعم. نحن هنا لمساعدتك وتقديم الإرشادات المطلوبة حول خدماتنا التعليمية ومشاركتنا المجتمعية.",
+          "labels": {
+            "address": "العنوان",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "addressTimes": "(مواعيد الفصل من ١٠ صباحًا حتى ٢ ظهرًا فقط)"
+          }
+        }
+      },
+      "enroll": {
+        "hero": {
+          "title": "سجل الآن",
+          "subtitle": "ابدأ رحلتك التعليمية",
+          "description": "هل أنت جاهز لخطوة جديدة في مسيرتك التعليمية؟ نحن هنا لنرشدك خلال عملية التسجيل. فريقنا ملتزم بتوفير انتقال سلس إلى مجتمعنا الدراسي، مع ضمان تجربة تعليمية غنية وجذابة تبدأ من اللحظة الأولى.",
+          "messageSuccess": "شكراً لتقديمك. سنتواصل معك قريباً.",
+          "messageError": "عذراً، حدث خطأ أثناء إرسال طلبك. يرجى المحاولة مرة أخرى."
+        }
+      },
+  
+      "footer": {
+        "title": "تمكين المجتمعات وإثراء التعليم",
+        "labels": {
+          "programs": "البرامج",
+          "siteLinks": "روابط الموقع",
+          "contactUs": "اتصل بنا",
+          "address": "العنوان",
+          "email": "البريد الإلكتروني",
+          "phone": "الهاتف",
+          "addressTimes": "(مواعيد الفصل من ١٠ صباحًا حتى ٢ ظهرًا فقط)"
+        },
+        "siteLinksDropdown": [
+          { "label": "الصفحة الرئيسية", "href": "/" },
+          { "label": "معلومات عنا", "href": "/about" },
+          { "label": "معرض الصور", "href": "/gallery" },
+          { "label": "التقويم الدراسي", "href": "/calendar" },
+          { "label": "سياسة الحماية", "href": "/policy" },
+          { "label": "إجراءات الحماية", "href": "/procedure" },
+          { "label": "الموارد", "href": "/resources" },
+          { "label": "التسجيل", "href": "/enroll" },
+          { "label": "تواصل معنا", "href": "/contact" }
+        ]
+      }
+    }
+  }
