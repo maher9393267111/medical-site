@@ -137,7 +137,7 @@ console.log("TRANSLATE--->" , t)
                 <ul className="main-menu">
 
 
-                {t.navItems?.map((data ,index) => {
+                {t.navs?.map((data ,index) => {
                 
                 const { id, label, link, icon, subMenu } = data;
                   return (
@@ -997,7 +997,7 @@ console.log("TRANSLATE--->" , t)
           </div>
           <div className="main-menu d-lg-flex d-none">
             <ul className="menu-list">
-              {t.navItems?.map((data) => {
+              {t.navs?.map((data) => {
                 const { id, label, link, icon, subMenu } = data;
                 return (
                   <li

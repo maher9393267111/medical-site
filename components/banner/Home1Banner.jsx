@@ -130,7 +130,7 @@ const Home1Banner = ({data}) => {
             </div>
             <div className="col-lg-6">
               <div className="banner-img-wrap">
-                {/* <Swiper {...settings} className="swiper banner-img-slider">
+                <Swiper {...settings} className="swiper banner-img-slider">
                   <div className="swiper-wrapper">
                     <SwiperSlide className="swiper-slide">
                       <img src="assets/img/home1/banner-img1.jpg" alt="" />
@@ -142,8 +142,8 @@ const Home1Banner = ({data}) => {
                       <img src="assets/img/home1/banner-img3.jpg" alt="" />
                     </SwiperSlide>
                   </div>
-                </Swiper> */}
-                  <video width={600} height={400} src={data?.video} autoPlay muted></video>
+                </Swiper>
+                  {/* <video width={600} height={400} src={data?.video} autoPlay muted></video> */}
               </div>
             </div>
           </div>
