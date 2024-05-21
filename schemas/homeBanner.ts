@@ -22,11 +22,26 @@ export const homebanner = defineType({
       }),
 
 
+      defineField({
+        name: "headingArabic",
+        type: "string",
+      }),
+  
+      defineField({
+          name: "titleArabic",
+          type: "string",
+        }),
+  
+        defineField({
+          name: "descArabic",
+          type: "string",
+        }),
+  
 
-    defineField({
-      name: "slug",
-      type: "string",
-    }),
+
+
+
+ 
  
 	defineField({
         name: "video",

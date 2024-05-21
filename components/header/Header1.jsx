@@ -4,6 +4,7 @@ import { useEffect, useMemo, useReducer, useRef } from "react";
 import navData from "../../data/mainnav.json";
 import ScrollProgress from "../common/ScrollProgress";
 import { useTranslation } from '../../app/useTranslation'
+import TopNav from "../../app/topNav";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -95,7 +96,7 @@ console.log("TRANSLATE--->" , t)
   return (
     <>
       <ScrollProgress />
-      <div className={`sidebar-menu ${state.isRightSidebar ? "active" : ""}`}>
+      <div className={`sidebar-menu arabic ${state.isRightSidebar ? "active" : ""}`}>
         <div className="sidebar-menu-top-area">
           <div className="container d-flex align-items-center justify-content-between">
             <div className="sidebar-menu-logo">
@@ -113,6 +114,8 @@ console.log("TRANSLATE--->" , t)
                   src="assets/img/logo-light.svg"
                 />
               </Link>
+
+              <TopNav/>
             </div>
             <div className="sidebar-menu-close" onClick={toggleRightSidebar}>
               <svg
@@ -141,14 +144,17 @@ console.log("TRANSLATE--->" , t)
                 
                 const { id, label, link, icon, subMenu } = data;
                   return (
-                    <li key={index}>
-                    <Link href={link}>{label}</Link>
+                    <li className="arabic" key={index}>
+                    <Link className="arabic" href={link}>{label}</Link>
                   </li>
 
 
                   )})}
 
 
+{/* <li>
+  <TopNav/>
+</li> */}
 
 
                
@@ -1004,9 +1010,9 @@ console.log("TRANSLATE--->" , t)
                     key={id}
                     className={`${
                       icon === true ? "menu-item-has-children" : ""
-                    }`}
+                    } arabic`}
                   >
-                    <Link href={link} className="drop-down">
+                    <Link href={link} className="drop-down arabic">
                       {label}
                     </Link>
                     {icon && (
@@ -1068,6 +1074,14 @@ console.log("TRANSLATE--->" , t)
                   </li>
                 );
               })}
+
+<li className="arabic">
+  <TopNav/>
+
+  
+</li>
+
+
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
@@ -1086,9 +1100,13 @@ console.log("TRANSLATE--->" , t)
                   </svg>
                 </div>
                 <div className="content">
-                  <span>Any Question</span>
+                  <span className="arabic">Any Question</span>
                   <h6>
                     <Link href="tel:+990737621432">+990-737 621 432</Link>
+
+                    <div className="arabic">
+                      مرحبا
+                    </div>
                   </h6>
                 </div>
               </div>

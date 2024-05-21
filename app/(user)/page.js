@@ -176,6 +176,10 @@ const HomePage = async () => {
 
   return (
     <>
+
+    <div className="arabic">
+      
+    </div>
       <Header1 data={contact[0]} />
       <Home1Banner data={homebannerData[0]} />
       <Home1BannerMarquee />

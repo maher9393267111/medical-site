@@ -47,7 +47,7 @@ const LayoutComp = ({ programs, programsArabic, contact, children }) => {
                 contact={contact}
               /> */}
 
-<div className=' h-[200px]  bg-gray-700'>
+<div className=' h-[50px]  bg-gray-00'>
 
 
 

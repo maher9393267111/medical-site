@@ -90,9 +90,74 @@ Version: 1.0
   scroll-behavior: smooth;
 }
 
+
+@font-face {
+  font-family: DroidSansMono;
+  src: url("../../font3/font3.otf");
+}
+
+
+/* ----------- */
+
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Bahij_TheSansArabic-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Bahij_TheSansArabic-SemiLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Bahij_TheSansArabic-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Bahij_TheSansArabic-Plain.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Bahij\ Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Bahij Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Bahij_TheSansArabic-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Bahij_TheSansArabic-Black 10.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
 :root {
-  --font-hankenGrotesk: "Hanken Grotesk", sans-serif;
-  --font-inter: "Inter", sans-serif;
+  --font-hankenGrotesk: "a";
+  --font-inter: "a";
   --white-color: #fff;
   --dark-white-color: #fff;
   --black-color: #000;
@@ -1957,7 +2022,7 @@ header.style-1 .main-menu > ul > li > a {
   letter-spacing: 0.4px;
   padding: 25px 0px;
   position: relative;
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-weight: 500;
   font-size: 15px;
   transition: all 0.5s ease-out 0s;
@@ -3877,7 +3942,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-banner-section .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: "Bahij !importan"; */
   font-size: 65px;
   font-weight: 900;
   line-height: 1.2;
@@ -3906,7 +3971,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-banner-section .banner-content p {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
