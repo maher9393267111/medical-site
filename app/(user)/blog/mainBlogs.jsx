@@ -24,7 +24,11 @@ const router =useRouter()
 
 
   return (
-    <MainLayout>
+    <MainLayout
+    
+    page={lang === 'en' ? 'Courses' :  "الكورسات" } title={lang === 'en' ?  'Courses' :  "الكورسات"}
+    
+    >
         
       <div
         className="blog-grid-section scroll-margin pt-120 mb-120"
@@ -164,7 +168,7 @@ return (
                   </form>
                 </div> */}
                 <div className="single-widget mb-30">
-                  <h5 className="widget-title">Category</h5>
+                  <h5 className="widget-title arabic">{lang === 'en' ?  'Category' : 'القسم'}</h5>
                   <ul className="category-list">
                   {catsData?.map((cat, index) => {
                     return (
@@ -176,7 +180,7 @@ return (
                     // }}
                     >
                        <Link href={`/blog?category=${cat?.title}`}  passHref> 
-                        <span className=" !cursor-pointer">
+                        <span  className=" arabic !cursor-pointer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={13}
@@ -189,7 +193,7 @@ return (
                               d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
                             />
                           </svg>
-                          {cat?.title}
+                          {lang === 'en' ? cat?.title :cat?.titlear}
                         </span>
                         <span>({cat?.count})</span>
                       </Link>

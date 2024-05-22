@@ -16060,7 +16060,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-area .widget-title {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 22px;
   font-weight: 700;
   line-height: 0.9;
