@@ -18,8 +18,8 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-async function sendEmail({ name, email, phone,company,message,subject }) {
-    console.log("SEND????????" ,name ,email ,phone ,company ,subject ,message)
+async function sendEmail({ name, email, phone,message }) {
+    console.log("SEND????????" ,name ,email ,phone ,message)
     const defaultYear = new Date().getFullYear();
   const emailOptions = {
     form: email,
@@ -36,11 +36,11 @@ async function sendEmail({ name, email, phone,company,message,subject }) {
         <p style="font-size:1rem;"><strong> Email: </strong> ${email}</p>
         <p style="font-size:1rem;"><strong> Phone: </strong> ${phone}</p>
         
-        <p style="font-size:1rem;"><strong>Company: </strong> ${company}</p>
+       >
           
         <p style="font-size:1rem;"><strong>Message: </strong> ${message}</p>
           
-        <p style="font-size:1rem;"><strong>Subject: </strong> ${subject}</p>
+        
     
     
     </div>

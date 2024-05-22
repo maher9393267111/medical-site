@@ -95,7 +95,7 @@ return (
               </h6>
               <span className="arabic">
 
-                150TL
+              {item?.price}TL
                 {/* $150.00 <del>$200.00</del> */}
               </span>
               <div className="rating">

@@ -6,10 +6,9 @@ const Home1Contact = ({ contact }) => {
     name: "",
     phone: "",
 
-    email: "",
+  
     message: "",
-    subject: "",
-    company: "",
+  email:"",
 
     error: false,
   });
@@ -28,10 +27,11 @@ const Home1Contact = ({ contact }) => {
 
       if (
         !state.phone &&
-        !state.email &&
+       
         !state.name &&
-        !state.company &&
-        !state.subject &&
+
+        !state.email &&
+    
         !state.message
       ) {
         console.log("ERROR CONDITION @@@@@@");
@@ -204,7 +204,7 @@ const Home1Contact = ({ contact }) => {
                   <h3>Your Success Starts Here!</h3>
                   <form onSubmit={submit}>
                     <div className="row">
-                      <div className="col-lg-6 mb-20">
+                      <div className="col-lg-6 mb-12">
                         <div className="form-inner">
                           <label>Full Name</label>
                           <input
@@ -215,7 +215,7 @@ const Home1Contact = ({ contact }) => {
                           />
                         </div>
                       </div>
-                      <div className="col-lg-6 mb-20">
+                      {/* <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company / Organization *</label>
                           <input
@@ -225,8 +225,9 @@ const Home1Contact = ({ contact }) => {
                             type="text"
                           />
                         </div>
-                      </div>
-                      <div className="col-lg-6 mb-20">
+                      </div> */}
+
+                      <div className="col-lg-6 mb-12">
                         <div className="form-inner">
                           <label>Phone *</label>
                           <input
@@ -237,7 +238,22 @@ const Home1Contact = ({ contact }) => {
                           />
                         </div>
                       </div>
-                      <div className="col-lg-6 mb-20">
+
+                      <div className="col-lg-6 mb-12">
+                        <div className="form-inner">
+                          <label> email *</label>
+                          <input
+                            name="email"
+                            onChange={inputChange}
+                            value={state.email}
+                            type="email"
+                          />
+                        </div>
+                      </div>
+
+
+
+                      {/* <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company email *</label>
                           <input
@@ -248,6 +264,7 @@ const Home1Contact = ({ contact }) => {
                           />
                         </div>
                       </div>
+
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Your Subject *</label>
@@ -258,8 +275,9 @@ const Home1Contact = ({ contact }) => {
                             type="text"
                           />
                         </div>
-                      </div>
-                      <div className="col-lg-12 mb-30">
+                      </div> */}
+
+                      <div className="col-lg-12 mb-12">
                         <div className="form-inner">
                           <label>Message *</label>
                           <textarea

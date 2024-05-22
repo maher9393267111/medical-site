@@ -14,7 +14,7 @@ export default defineType({
         defineField({
 			name: 'titlear',
 			title: 'Product Title Arabic',
-			type: 'string',
+			type: 'number',
 		}),
 
 

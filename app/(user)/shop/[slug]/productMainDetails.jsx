@@ -21,6 +21,8 @@ const ProductDetailsPage = ({productdata}) => {
   
 
 
+    console.log("products" , productdata)
+
   return (
     <MainLayout
     

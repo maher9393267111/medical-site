@@ -16582,7 +16582,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .product-card .product-card-content span {
   color: var(--title-color);
   font-size: 18px;
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-weight: 600;
   margin-bottom: 8px;
 }

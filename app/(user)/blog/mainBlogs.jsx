@@ -226,7 +226,7 @@ return (
                 </div> */}
 
 
-                <div className="single-widget mb-30">
+                {/* <div className="single-widget mb-30">
                   <h5 className="widget-title">Popular Post </h5>
                   {newpostsData?.map((post, index) => {
 
@@ -256,7 +256,7 @@ return (
                   </div>
                     )})}
                 
-                </div>
+                </div> */}
 
               
 

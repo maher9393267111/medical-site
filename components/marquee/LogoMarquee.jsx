@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 import urlFor from "../../lib/urlFor";
 const LogoMarquee = ({brandsData}) => {
 
-console.log(">>>ASASAS<<<<<" , brandsData)
+// console.log(">>>ASASAS<<<<<" , brandsData)
 
 
   return (

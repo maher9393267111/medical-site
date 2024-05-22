@@ -13,7 +13,7 @@ export default function MainService({data ,contact}) {
   const dir = lang === 'ar' && 'rtl'
 
 
-  console.log("INNNNNNNNNNSASASAS" ,data)
+  // console.log("INNNNNNNNNNSASASAS" ,data)
 
   return (
     <MainLayout

@@ -66,7 +66,7 @@ const Header2 = ({data}) => {
   const t = useMemo(() => translation?.header?.navigation ?? {}, [translation])
 
 
-  console.log("ASSAS" ,navData)
+  // console.log("ASSAS" ,navData)
 
 
 
@@ -1077,6 +1077,14 @@ const { id, label, link, icon, subMenu } = data;
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
+
+
+          <div>
+<TopNav/>
+</div>
+
+
+
             <div className="sidebar-and-btn">
               <div className="sidebar-btn" onClick={toggleRightSidebar}>
                 <svg
@@ -1090,13 +1098,13 @@ const { id, label, link, icon, subMenu } = data;
                   </g>
                 </svg>
               </div>
-
+{/* 
               <div className="sidebar-btn" >
              
                 <TopNav/>
               </div>
 
-            
+             */}
 
               {/* <Link href="/contact" className="primary-btn4 d-xl-flex d-none">
                 Get Started

@@ -1075,18 +1075,18 @@ console.log("TRANSLATE--->" , t)
                 );
               })}
 
-<li className="arabic">
+{/* <li className="arabic">
   <TopNav/>
 
   
-</li>
+</li> */}
 
 
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
             <div className="right-sidebar-and-hotline-area">
-              <div className="hotline-area d-xl-flex d-none">
+              {/* <div className="hotline-area d-xl-flex d-none">
                 <div className="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1109,7 +1109,13 @@ console.log("TRANSLATE--->" , t)
                     </div>
                   </h6>
                 </div>
-              </div>
+              </div> */}
+
+
+<div>
+<TopNav/>
+</div>
+
               <div className="sidebar-btn" onClick={toggleRightSidebar}>
                 <svg
                   className="open"
