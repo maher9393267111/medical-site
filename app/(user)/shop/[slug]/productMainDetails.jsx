@@ -64,6 +64,7 @@ src={urlFor(productdata?.images[0])?.url()}
 return (
 
                   <div
+                  key={index}
                     className="tab-pane fade"
                     // id="v-pills-img2"
                     id={`v-pills-img${index}`}
