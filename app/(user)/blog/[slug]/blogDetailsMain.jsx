@@ -20,7 +20,10 @@ const BlogDetailsMain = ({ blog }) => {
 
   useWow();
   return (
-    <MainLayout>
+    <MainLayout 
+    page={lang === 'en' ? 'Course detials' :  'تفاصيل الكورس' } title={lang === 'en' ?  'Course detials' :  'تفاصيل الكورس'}
+    
+    >
       <div
         className="blog-details scroll-margin pt-120 mb-120 style-6"
         id="blog-details"

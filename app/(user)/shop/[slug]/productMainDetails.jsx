@@ -22,7 +22,11 @@ const ProductDetailsPage = ({productdata}) => {
 
 
   return (
-    <MainLayout>
+    <MainLayout
+    
+        
+    page={lang === 'en' ? 'Product details' :  'تفاصيل المنتج' } title={lang === 'en' ? 'Product details' :  'تفاصيل المنتج'}
+    >
 
 
 {productdata?.titlear}

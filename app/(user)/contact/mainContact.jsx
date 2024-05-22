@@ -1,12 +1,28 @@
 "use client"
 import MainLayout from "../../../components/layout/MainLayout";
 import useWow from "../../../hooks/useWow";
+
+import { useLanguageContext } from '../../languageContext'
+
 import React from "react";
 
 const ContactPageMain = ({contact}) => {
   useWow()
+
+  const { language :lang } = useLanguageContext()
+
+  const dir = lang === 'ar' && 'rtl'
+
+
+
   return (
-    <MainLayout contact={contact}>
+    <MainLayout
+
+    iscontact={true}
+
+    page={lang === 'en' ? 'Contact Us' :  'تواصل معنا' } title={lang === 'en' ?  'Contact Us' :  'تواصل معنا'}
+
+    contact={contact}>
       <div className="contact-page scroll-margin pt-120 mb-120" id="contact">
         <div className="container">
           <div className="row mb-60">

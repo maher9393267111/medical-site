@@ -17,7 +17,12 @@ const ShopPageMain = ({products ,contact , loadMore} ) => {
 
   useWow()
   return (
-    <MainLayout>
+    <MainLayout
+    
+        
+    page={lang === 'en' ? 'Products' :  'المنتجات' } title={lang === 'en' ? 'Products' :  'المنتجات'}
+    
+    >
       <div className="shop-page scroll-margin pt-120 pb-120" id="shop">
         <div className="container">
           <div className="row g-4 mb-50">

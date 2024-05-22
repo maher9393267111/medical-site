@@ -88,6 +88,8 @@ const AboutPage = async () => {
   const discoverData = await client.fetch(discoverquery);
   const awardsData = await client.fetch(awardsquery);
 
+  const contact = await client.fetch(contactquery);
+
 console.log(discoverData[0])
 
   return (
@@ -95,6 +97,7 @@ console.log(discoverData[0])
     
     <AboutOneMAin
      aboutOneData={aboutOneData[0]}
+     contact ={contact}
      steps={stepsData}
      partners ={partnersData}
      awards={awardsData[0]}

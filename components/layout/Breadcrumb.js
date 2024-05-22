@@ -3,47 +3,20 @@ import React from "react";
 import breadcrumbData from "../../data/mainBreadCrumb.json";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-
-const Breadcrumb = () => {
+import { useLanguageContext } from '../../app/languageContext'
+const Breadcrumb = ({page ,title}) => {
   const currentSlug = usePathname(); // Get the current route's slug
 
-  // Filter breadcrumbData based on matching slugs
-  const filteredBreadcrumbData = breadcrumbData.filter(
-    (item) => item.slug === currentSlug
-  );
 
-  // Render the breadcrumb only if there's a matching slug
-  if (filteredBreadcrumbData.length === 0) {
-    return (
-        <div
-        className="breadcrumb-section"
-        style={{
-          backgroundImage: "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
-        }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="banner-wrapper">
-                <div className="banner-content">
-                  <ul className="breadcrumb-list">
-                    <li>
-                      <Link href="/">Home</Link>
-                    </li>
-                  </ul>
-                  <h1>Path Not Match</h1>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
-  }
+
+
+
+   const { language :lang } = useLanguageContext()
+
+  const dir = lang === 'ar' && 'rtl'
+
 
   
-  const currentBreadcrumb = filteredBreadcrumbData[0];
 
   return (
     <>
@@ -58,14 +31,14 @@ const Breadcrumb = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="banner-wrapper">
-                <div className="banner-content">
-                  <ul className="breadcrumb-list">
-                    <li>
-                      <Link href="/">Home</Link>
+                <div dir={dir} className="banner-content">
+                  <ul className="breadcrumb-list arabic">
+                    <li className="arabic">
+                      <Link className="arabic" href="/">{lang === 'en' ? 'Home' :'الرئيسية'}  </Link>
                     </li>
-                    <li>{currentBreadcrumb.name}</li>
+                    <li>{page}</li>
                   </ul>
-                  <h1>{currentBreadcrumb.pageTitle}</h1>
+                  <h1 className="arabic">{title}</h1>
                 </div>
                 {/* <div className="scroll-down-btn">
                   <a href={currentBreadcrumb.section_down_scroll}>

@@ -15,7 +15,10 @@ const ServicesPage = ({services ,contact}) => {
 
   useWow()
   return (
-    <MainLayout contact={contact}>
+    <MainLayout
+    page={lang === 'en' ? 'Services' :  'الخدمات' } title={lang === 'en' ? 'Services' :  'الخدمات' }
+    
+    contact={contact}>
       <div
         className="service-card-section scroll-margin pt-120 mb-120"
         id="service-section"

@@ -6,7 +6,7 @@ import Breadcrumb from "./Breadcrumb";
 import Footer from "../footer/Footer";
 import Home1Contact from "../contact/Home1Contact";
 
-const MainLayout = ({ children , contact }) => {
+const MainLayout = ({ children , contact ,page ,title ,iscontact=false }) => {
   const pathname = usePathname(); // Get the current pathname
 
   const hideBreadcrumbRoutes = [
@@ -23,11 +23,17 @@ const MainLayout = ({ children , contact }) => {
   return (
     <>
       <Header2 data={contact} />
-      <Breadcrumb />
+      <Breadcrumb page ={page}  title={title} />
       {children}
 
-      {shouldRenderBreadcrumb && <Home1Contact contact={contact} />}
-      <Footer />
+{iscontact &&  <Home1Contact contact={contact} />}
+
+
+
+      {/* {shouldRenderBreadcrumb && <Home1Contact contact={contact} />} */}
+
+
+      {/* <Footer /> */}
     </>
   );
 };
