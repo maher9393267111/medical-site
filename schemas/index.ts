@@ -24,8 +24,10 @@ import Tag from './tag'
  import { homeCauseSlider } from './homeCauseStudySlider'
  import { Brands } from './brands'
  import { ShowCase } from './showCaseSection'
+ import  Products from './products'
+import products from './products'
 export const schemaTypes = [
-    
+    products,
     homebanner,
     homeSectionOne,
      Service,

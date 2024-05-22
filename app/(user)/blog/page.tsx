@@ -8,8 +8,8 @@ import MainBlogs from "./mainBlogs";
 import { off } from "process";
 export default function BlogPage() {
   const searchParams = useSearchParams();
-  const cat = searchParams.get("category");
-  const tag = searchParams.get("tag");
+  const cat = searchParams?.get("category");
+  const tag = searchParams?.get("tag");
   const isparams = cat || tag ? true : false;
 
   const [posts, setPosts] = useState([]);
@@ -24,7 +24,7 @@ export default function BlogPage() {
     "categories": categories[]->{
       _id,
       title,
-      titlear
+      titlear}
   } | order(_createdAt desc) [0...3]
 `;
 
