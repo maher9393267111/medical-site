@@ -2,7 +2,11 @@
     "en": {
       "header": {
         "contactHeader": {
-          "name": "Azza Supplementary School",
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "message": "Message",
+          "send": "Send",
           "labels": {
             "address": "Address",
             "email": "Email",
@@ -182,6 +186,7 @@
               "placeholder": "Your name",
               "required": true
             },
+
             {
               "name": "from_email",
               "label": "Email",
@@ -257,7 +262,11 @@
     "ar": {
       "header": {
         "contactHeader": {
-          "name": "مدرسة عزة التكميلية",
+          "name": "الاسم الكامل",
+          "email": "البريد الإلكتروني",
+          "phone": "رقم الهاتف",
+          "message": "الرسالة",
+          "send": "ارسال",
           "labels": {
             "address": "العنوان",
             "email": "البريد الإلكتروني",

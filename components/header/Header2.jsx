@@ -66,7 +66,7 @@ const Header2 = ({data}) => {
   const t = useMemo(() => translation?.header?.navigation ?? {}, [translation])
 
 
-  // console.log("ASSAS" ,navData)
+   console.log("ASSAS" ,t)
 
 
 

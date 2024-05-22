@@ -6,12 +6,15 @@ import { useLanguageContext } from '../../languageContext'
 
 import React from "react";
 
+
 const ContactPageMain = ({contact}) => {
   useWow()
 
   const { language :lang } = useLanguageContext()
 
   const dir = lang === 'ar' && 'rtl'
+
+
 
 
 

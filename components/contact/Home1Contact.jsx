@@ -1,17 +1,40 @@
 "use client";
 import React from "react";
-import { useState } from "react";
+import { useState ,useMemo, useRef  } from "react";
+
+
+import { useTranslation } from '../../app/useTranslation'
+import { useLanguageContext } from '../../app/languageContext'
+import Alert from "react-bootstrap/Alert";
 const Home1Contact = ({ contact }) => {
+
+  const { translation } = useTranslation()
+
+  const t= useMemo(() => translation?.header?.contactHeader ?? {}, [translation])
+
+
+  const { language :lang } = useLanguageContext()
+
+  const dir = lang === 'ar' && 'rtl'
+
+
+
+
+console.log("TRANSLATE___----___" ,t)
+
+
   const [state, setstate] = useState({
     name: "",
     phone: "",
 
-  
     message: "",
-  email:"",
+    email: "",
 
     error: false,
   });
+
+  const [welcomeMessage, setWelcomeMessage] = useState("");
+
 
   const submit = (e) => {
     e.preventDefault();
@@ -25,15 +48,7 @@ const Home1Contact = ({ contact }) => {
         ...state,
       };
 
-      if (
-        !state.phone &&
-       
-        !state.name &&
-
-        !state.email &&
-    
-        !state.message
-      ) {
+      if (!state.phone && !state.name && !state.email && !state.message) {
         console.log("ERROR CONDITION @@@@@@");
         setstate({ ...state, error: true });
         message.info("يرجا تعبئة كافة الحقول");
@@ -47,6 +62,8 @@ const Home1Contact = ({ contact }) => {
         });
 
         setstate({ ...state, error: false });
+
+        setWelcomeMessage("تم ارسال معلوماتك بنجاح");
 
         // message.success("تم ارسال معلوماتك بنجاح");
       }
@@ -145,7 +162,9 @@ const Home1Contact = ({ contact }) => {
                     <div className="content">
                       <span>To Send Mail</span>
                       <h6>
-                        <a href={`mailto:${contact?.email}`}>{contact?.email}</a>
+                        <a href={`mailto:${contact?.email}`}>
+                          {contact?.email}
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -201,12 +220,12 @@ const Home1Contact = ({ contact }) => {
             >
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
-                  <h3>Your Success Starts Here!</h3>
-                  <form onSubmit={submit}>
+                  {/* <h3 dir={dir}>Your Success Starts Here!</h3> */}
+                  <form dir={dir} onSubmit={submit}>
                     <div className="row">
                       <div className="col-lg-6 mb-12">
                         <div className="form-inner">
-                          <label>Full Name</label>
+                          <label>{t?.name}</label>
                           <input
                             name="name"
                             onChange={inputChange}
@@ -229,7 +248,7 @@ const Home1Contact = ({ contact }) => {
 
                       <div className="col-lg-6 mb-12">
                         <div className="form-inner">
-                          <label>Phone *</label>
+                          <label>{t?.phone} *</label>
                           <input
                             name="phone"
                             onChange={inputChange}
@@ -241,7 +260,7 @@ const Home1Contact = ({ contact }) => {
 
                       <div className="col-lg-6 mb-12">
                         <div className="form-inner">
-                          <label> email *</label>
+                          <label> {t?.email} *</label>
                           <input
                             name="email"
                             onChange={inputChange}
@@ -250,8 +269,6 @@ const Home1Contact = ({ contact }) => {
                           />
                         </div>
                       </div>
-
-
 
                       {/* <div className="col-lg-6 mb-20">
                         <div className="form-inner">
@@ -279,7 +296,7 @@ const Home1Contact = ({ contact }) => {
 
                       <div className="col-lg-12 mb-12">
                         <div className="form-inner">
-                          <label>Message *</label>
+                          <label>{t?.message} *</label>
                           <textarea
                             name="message"
                             onChange={inputChange}
@@ -293,13 +310,18 @@ const Home1Contact = ({ contact }) => {
                           <button
                             className="primary-btn2"
                             type="submit"
-                            data-text="Submit Now"
+                            data-text={t?.send}
                           >
-                            <span>Submit Now</span>
+                            <span className="arabic">{t?.send}</span>
                           </button>
                         </div>
                       </div>
                     </div>
+                    {!!welcomeMessage && (
+            <Alert variant="success" className="my-2">
+              <p>{welcomeMessage}</p>
+            </Alert>
+          )}
                   </form>
                 </div>
               </div>

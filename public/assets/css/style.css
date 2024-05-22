@@ -1714,7 +1714,7 @@ ul {
 }
 .form-inner label {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+   font-family: "bahij !important";
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
