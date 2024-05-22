@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { useEffect, useMemo, useReducer, useRef } from "react";
 import navData from "../../data/mainnav.json";
+import { useTranslation } from '../../app/useTranslation'
+import TopNav from "../../app/topNav";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -58,6 +60,12 @@ const Header2 = ({data}) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
 
+  
+  const { translation } = useTranslation()
+
+  const t = useMemo(() => translation?.header?.navigation ?? {}, [translation])
+
+
   console.log("ASSAS" ,navData)
 
 
@@ -108,6 +116,8 @@ const Header2 = ({data}) => {
                   src="assets/img/logo-light.svg"
                 />
               </Link>
+
+              <TopNav/>
             </div>
             <div className="sidebar-menu-close" onClick={toggleRightSidebar}>
               <svg
@@ -132,7 +142,7 @@ const Header2 = ({data}) => {
               <ul className="main-menu">
 
 
-{navData?.map((data ,index) => {
+{t.navs?.map((data ,index) => {
 
 const { id, label, link, icon, subMenu } = data;
   return (
@@ -992,7 +1002,7 @@ const { id, label, link, icon, subMenu } = data;
           </div>
           <div className="main-menu d-lg-flex d-none">
             <ul className="menu-list">
-              {navData.map((data) => {
+              {t.navs?.map((data) => {
                 const { id, label, link, icon, subMenu } = data;
                 return (
                   <li
@@ -1001,7 +1011,7 @@ const { id, label, link, icon, subMenu } = data;
                       icon === true ? "menu-item-has-children" : ""
                     }`}
                   >
-                    <Link href={link} className="drop-down">
+                    <Link href={link} className="drop-down arabic">
                       {label}
                     </Link>
                     {icon && (
@@ -1049,7 +1059,7 @@ const { id, label, link, icon, subMenu } = data;
                               >
                                 {subItem.subMenu.map((subItem, subIndex) => (
                                   <li key={subItem.id}>
-                                    <Link legacyBehavior href={subItem.link}>
+                                    <Link className="arabic" legacyBehavior href={subItem.link}>
                                       <a>{subItem.label}</a>
                                     </Link>
                                   </li>
@@ -1063,6 +1073,7 @@ const { id, label, link, icon, subMenu } = data;
                   </li>
                 );
               })}
+
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
@@ -1079,9 +1090,17 @@ const { id, label, link, icon, subMenu } = data;
                   </g>
                 </svg>
               </div>
-              <Link href="/contact" className="primary-btn4 d-xl-flex d-none">
+
+              <div className="sidebar-btn" >
+             
+                <TopNav/>
+              </div>
+
+            
+
+              {/* <Link href="/contact" className="primary-btn4 d-xl-flex d-none">
                 Get Started
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

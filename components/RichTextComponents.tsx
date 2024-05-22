@@ -8,9 +8,9 @@ export const RichTextComponents = {
     types:{
         image: ({ value }: any) => {
             return (
-                <div className='relativ !w-[400px] m-10 mx-auto h-[400px]'>
+                <div className='relativ !w-[100%] m-10 mx-auto !h-[300px] arabic'>
                     <img
-                        className='object-contain'
+                        className='object-cover w-full !h-full'
                         src={urlFor(value)?.url()}
                         
                         alt="Blog Content Image"
@@ -23,17 +23,17 @@ export const RichTextComponents = {
     },
     list: {
         bullet: ({ children }: any) => (
-            <ul className='py-5 ml-10 list-disc'>
+            <ul className='py-5 ml-10 list-disc arabic'>
                 {children}
             </ul>
         ),
         number: ({ children }: any) => (
-            <ol className='list-decimal mt-lg'>{children}</ol>
+            <ol className='list-decimal mt-lg arabic'>{children}</ol>
         ),
     },
     block: {
         h1: ({ children }: any) => (
-            <h1 className='py-10 text-5xl font-bold'>{children}</h1>
+            <h1 className='py-10 text-5xl font-bold arabic'>{children}</h1>
         ),
         h2: ({ children }: any) => (
             <h2 className='py-10 text-4xl font-bold'>{children}</h2>
@@ -42,18 +42,18 @@ export const RichTextComponents = {
             <h3 className='py-10 text-3xl font-bold'>{children}</h3>
         ),
         h4: ({ children }: any) => (
-            <h4 className='py-10 text-2xl font-bold'>
+            <h4 className='py-10 text-2xl font-bold arabic'>
                 {children}
             </h4>
         ),
         p: ({ children }: any) => (
-            <p className='py-10 text-2xl font-bold bg-red-500'>
+            <p className='py-10 text-2xl font-bold bg-red-500 arabic'>
                 {children}
             </p>
         ),
         blockquote: ({ children }: any) => (
             <blockquote
-                className='py-5 pl-5 my-5 border-l-4 border-l-primary-teal'
+                className='py-5 pl-5 my-5 border-l-4 border-l-primary-teal arabic'
             >
                 {children}
             </blockquote>

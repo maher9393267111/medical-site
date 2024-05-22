@@ -4,9 +4,16 @@ import useWow from "../../../hooks/useWow";
 import Link from "next/link";
 import urlFor from '../../../lib/urlFor';
 import { useRouter } from "next/navigation";
+import { useLanguageContext } from '../../languageContext'
 
 
 const BlogpageMain = ({blogs ,catsData ,tagsData ,newpostsData ,loadMore ,isparams }) => {
+
+console.log("BLOGS WHERE-->" , blogs)
+  const { language :lang } = useLanguageContext()
+
+  const dir = lang === 'ar' && 'rtl'
+
   useWow()
 
 
@@ -66,7 +73,7 @@ return (
                         
                       <li>
                         <Link href="/blog">
-                            {blog?.categories?.length && blog?.categories[0]?.title}
+                        {blog?.categories && ( lang === 'en' ? blog?.categories[0]?.title : blog?.categories[0]?.titlear )}
                         </Link>
                      </li>
            
@@ -77,11 +84,11 @@ return (
                   </div>
                   <h4>
                     <Link  href={`/blog/${blog?.slug.current}`}>
-                    {blog?.title}
+                    { lang === 'en' ? blog?.title : blog?.titlear}
                     </Link>
                   </h4>
                   <Link  href={`/blog/${blog?.slug.current}`} className="read-more-btn">
-                    Read More
+                  { lang === 'en' ? " Read More" : 'اقرأالمزيد'} 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={10}
@@ -195,7 +202,7 @@ return (
                 </div>
 
 
-                <div className="single-widget mb-30">
+                {/* <div className="single-widget mb-30">
                   <h5 className="widget-title">New Tags</h5>
                   <ul className="tag-list">
                   {tagsData?.map((tag, index) => {
@@ -212,7 +219,7 @@ return (
                     )})}
           
                   </ul>
-                </div>
+                </div> */}
 
 
                 <div className="single-widget mb-30">

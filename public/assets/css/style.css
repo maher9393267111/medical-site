@@ -1429,7 +1429,7 @@ ul {
 
 .section-title > span {
   color: var(--primary-color1);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
@@ -1450,7 +1450,7 @@ ul {
 }
 .section-title h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
@@ -2535,7 +2535,7 @@ header.style-2 .main-menu > ul > li > a {
   letter-spacing: 0.4px;
   padding: 25px 0px;
   position: relative;
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-weight: 500;
   font-size: 15px;
   transition: all 0.5s ease-out 0s;
@@ -5831,7 +5831,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card .card-content .blog-meta .category li a {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
@@ -5869,7 +5869,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card .card-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 25px;
   font-weight: 600;
   line-height: 1.4;
@@ -5890,7 +5890,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card .card-content .read-more-btn {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -12854,7 +12854,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card2 .blog-card-content-wrap .blog-card-content .blog-meta .category li {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
@@ -18648,7 +18648,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .blog-details .blog-details-content p {
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;

@@ -21,7 +21,10 @@ export default function BlogPage() {
   *[_type=='post'] {
     ...,
     author->,
-    categories[]->
+    "categories": categories[]->{
+      _id,
+      title,
+      titlear
   } | order(_createdAt desc) [0...3]
 `;
 

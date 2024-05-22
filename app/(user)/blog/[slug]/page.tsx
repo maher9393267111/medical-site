@@ -4,7 +4,8 @@ import { client } from '../../../../lib/sanity.client';
 
  import { Post } from '../../../../typings';
  import MainBlogDetails from './blogDetailsMain'
-
+import BllogFake from './blogFake'
+import BlogDetailsFake from './blogFake';
 type Props = {
   params: {
     slug: string;
@@ -14,10 +15,15 @@ type Props = {
 
   const query = groq`*[_type == "post"][slug.current == $slug][0] {
   
-      ...,      // all the fields
-      author->, 
-      categories[]-> ,
-      tags[]-> ,
+    ...,
+    author->,
+    "categories": categories[]->{
+      _id,
+      title,
+      titlear
+      // any other category fields you want to fetch
+    },
+     
 
       'prev': *[_type == 'post'  && _createdAt < ^._createdAt].slug | order(_createdAt desc)[0],
       'next': *[_type == 'post' && _createdAt > ^._createdAt].slug | order(_createdAt desc)[0]
@@ -32,18 +38,19 @@ const BlogDetailPage = async ({ params }: { params: { slug: string } }) => {
 console.log("BLOG" , blog?.prev ,blog?.next)
 
   return (
-    <section
+    <div
       id="section"
-      className="py-24 sm:py-24 relative w-full justify-center flex items-center "
+      className=" "
     >
 
+{/* <BlogDetailsFake/> */}
     <MainBlogDetails blog={blog} />  
 
       {/* <div className=' mt-24 mx-12'>
       <PortableText value={post?.body} components={RichTextComponents} />
       </div> */}
 
-    </section>
+    </div>
   );
 };
 

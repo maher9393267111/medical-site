@@ -27,7 +27,7 @@ const MainLayout = ({ children , contact }) => {
       {children}
 
       {shouldRenderBreadcrumb && <Home1Contact contact={contact} />}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

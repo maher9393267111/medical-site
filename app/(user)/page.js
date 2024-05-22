@@ -23,8 +23,36 @@ const query = groq`
     ...,
     author->,
     categories[]->
-  } | order(_createdAt desc)
+  } | order(_createdAt desc)  [0...1]
 `;
+
+
+
+const blogsquery = groq`
+  *[_type=='post'] {
+    ...,
+    categories[]-> 
+    
+  } | order(_createdAt desc)
+  [0...3]
+`;
+
+
+
+const productsquery = groq`
+  *[_type=='product'] {
+    ...,
+    
+    
+  } | order(_createdAt desc)
+  [0...3]
+`;
+
+
+
+
+
+
 
 const bannerquery = groq`
   *[_type=='Homebanner'] {
@@ -119,14 +147,8 @@ const casesquery = groq`
   [0...4]
 `;
 
-const blogsquery = groq`
-  *[_type=='post'] {
-    ...,
-    categories[]-> 
-    
-  } | order(_createdAt desc)
-  [0...3]
-`;
+
+
 
 const aboutOnequery = groq`
   *[_type=='aboutOne']{
@@ -182,7 +204,19 @@ const HomePage = async () => {
     </div>
       <Header1 data={contact[0]} />
       <Home1Banner data={homebannerData[0]} />
-      <Home1BannerMarquee />
+
+
+<div className= " !top-12 md:!mt-24">
+<Home1Blog blogsData={blogsData} />
+</div>
+
+
+    
+
+
+
+
+      {/* <Home1BannerMarquee /> */}
       <Home1About data={sectionOneData2[0]} />
       <Home1Solution data={servicesData} />
       <Home1WorkProcess data={workProcessData} />

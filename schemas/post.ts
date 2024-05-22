@@ -10,6 +10,14 @@ export default defineType({
       title: 'Title',
       type: 'string',
     }),
+
+    defineField({
+      name: 'titlear',
+      title: 'TitleAr',
+      type: 'string',
+    }),
+
+    
     defineField({
       name: 'slug',
       title: 'Slug',
@@ -19,6 +27,8 @@ export default defineType({
         maxLength: 96,
       },
     }),
+
+
     defineField({
       name: 'author',
       title: 'Author',
@@ -42,12 +52,12 @@ export default defineType({
 
 
 
-    defineField({
-      name: 'tags',
-      title: 'Tags',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'tag'}}],
-    }),
+    // defineField({
+    //   name: 'tags',
+    //   title: 'Tags',
+    //   type: 'array',
+    //   of: [{type: 'reference', to: {type: 'tag'}}],
+    // }),
 
 
     defineField({
@@ -55,25 +65,37 @@ export default defineType({
       title: 'Published at',
       type: 'datetime',
     }),
+
     defineField({
       name: 'body',
       title: 'Body',
       type: 'blockContent',
     }),
 
-    defineField({
-      name: 'description',
-      description: 'Enter a short snippet for the blog...',
-      title: 'Description',
-      type: 'string',
-    }),
+
 
     defineField({
-      name: 'description2',
-      description: 'Enter a short snippet for the blog desc2...',
-      title: 'Description2',
-      type: 'string',
+      name: 'bodyar',
+      title: 'BodyAr',
+      type: 'blockContent',
     }),
+
+
+
+
+    // defineField({
+    //   name: 'description',
+    //   description: 'Enter a short snippet for the blog...',
+    //   title: 'Description',
+    //   type: 'string',
+    // }),
+
+    // defineField({
+    //   name: 'description2',
+    //   description: 'Enter a short snippet for the blog desc2...',
+    //   title: 'Description2',
+    //   type: 'string',
+    // }),
 
 
   ],

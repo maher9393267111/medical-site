@@ -114,6 +114,11 @@ body {
 }
 
 
+
+.marks > * {
+  font-family: 'Bahij !important';
+}
+
 /* 
 @tailwind base;
 @tailwind components;

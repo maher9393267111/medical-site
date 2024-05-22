@@ -41,9 +41,9 @@ const CaseDetailPage  = async ({ params }: { params: { slug: string } }) => {
   const casedata = await client.fetch(query, { slug }) || [];
 const contact = await client.fetch(contactquery);
   return (
-    <section
+    <div
       id="section"
-      className="py-24 sm:py-24 relative w-full justify-center flex items-center "
+      className=" "
     >
 
     <MainCaseDetails contact={contact[0]} casedata={casedata} />  
@@ -52,7 +52,7 @@ const contact = await client.fetch(contactquery);
       <PortableText value={post?.body} components={RichTextComponents} />
       </div> */}
 
-    </section>
+    </div>
   );
 };
 
