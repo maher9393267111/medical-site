@@ -6,7 +6,7 @@ import Home5Workprocess from "../../../../components/workProcess/Home5Workproces
 
 import { useLanguageContext } from '../../../languageContext'
 
-export default function mainService({data ,contact}) {
+export default function MainService({data ,contact}) {
 
   const { language :lang } = useLanguageContext()
 
