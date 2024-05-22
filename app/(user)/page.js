@@ -2,6 +2,7 @@ import Home1About from "../../components/about/Home1About";
 import Home1Approach from "../../components/approachSection/Home1Approach";
 import Home1Banner from "../../components/banner/Home1Banner";
 import Home1Blog from "../../components/blog/Home1Blog";
+import ProducctsHome from "../../components/Main/ProductsHome";
 import BannerWithCaseStudySlider from "../../components/caseStudy/BannerWithCaseStudySlider";
 import Home1Contact from "../../components/contact/Home1Contact";
 import Footer from "../../components/footer/Footer";
@@ -18,15 +19,13 @@ import { client } from "../../lib/sanity.client";
 
 export const revalidate = 30;
 
-const query = groq`
-  *[_type=='post'] {
-    ...,
-    author->,
-    categories[]->
-  } | order(_createdAt desc)  [0...1]
-`;
-
-
+// const query = groq`
+//   *[_type=='post'] {
+//     ...,
+//     author->,
+//     categories[]->
+//   } | order(_createdAt desc)  [0...1]
+// `;
 
 const blogsquery = groq`
   *[_type=='post'] {
@@ -37,8 +36,6 @@ const blogsquery = groq`
   [0...3]
 `;
 
-
-
 const productsquery = groq`
   *[_type=='product'] {
     ...,
@@ -47,12 +44,6 @@ const productsquery = groq`
   } | order(_createdAt desc)
   [0...3]
 `;
-
-
-
-
-
-
 
 const bannerquery = groq`
   *[_type=='Homebanner'] {
@@ -70,56 +61,46 @@ const onequery = groq`
   } | order(_createdAt desc)
 `;
 
-const servicesquery = groq`
-  *[_type=='service'] {
-    ...
-    
-    
-   
-  } | order(_createdAt desc)
-`;
+// const servicesquery = groq`
+//   *[_type=='service'] {
+//     ...
+
+//   } | order(_createdAt desc)
+// `;
 
 //workprocess
 
-const workPorocessquery = groq`
-  *[_type=='workprocess'] {
-    ...
-    
-    
-   
-  } | order(_createdAt desc)
-`;
+// const workPorocessquery = groq`
+//   *[_type=='workprocess'] {
+//     ...
+
+//   } | order(_createdAt desc)
+// `;
 
 //homeapproach
 
-const approachquery = groq`
-  *[_type=='homeapproach'] {
-    ...
-    
-    
-   
-  } | order(_createdAt desc)
-`;
+// const approachquery = groq`
+//   *[_type=='homeapproach'] {
+//     ...
+
+//   } | order(_createdAt desc)
+// `;
 
 //clientcomments"
 
-const clientsquery = groq`
-  *[_type=='clientcomments'] {
-    ...
-    
-    
-   
-  } | order(_createdAt desc)
-`;
+// const clientsquery = groq`
+//   *[_type=='clientcomments'] {
+//     ...
 
-const casestudyquery = groq`
-  *[_type=='casestudy'] {
-    ...
-    
-    
-   
-  } | order(_createdAt desc)
-`;
+//   } | order(_createdAt desc)
+// `;
+
+// const casestudyquery = groq`
+//   *[_type=='casestudy'] {
+//     ...
+
+//   } | order(_createdAt desc)
+// `;
 
 const contactquery = groq`
   *[_type=='contact'] {
@@ -130,25 +111,20 @@ const contactquery = groq`
 `;
 
 //homeCauseSlider
-const caseInfoquery = groq`
-  *[_type=='homeCasesSlider'] {
-    ...,
-    
-    
-  } | order(_createdAt desc)
-`;
+// const caseInfoquery = groq`
+//   *[_type=='homeCasesSlider'] {
+//     ...,
 
-const casesquery = groq`
-  *[_type=='casestudy'] {
-    ...,
-    
-    
-  } | order(_createdAt desc)
-  [0...4]
-`;
+//   } | order(_createdAt desc)
+// `;
 
+// const casesquery = groq`
+//   *[_type=='casestudy'] {
+//     ...,
 
-
+//   } | order(_createdAt desc)
+//   [0...4]
+// `;
 
 const aboutOnequery = groq`
   *[_type=='aboutOne']{
@@ -157,19 +133,19 @@ const aboutOnequery = groq`
   } | order(_createdAt desc)
 `;
 
-const brandsquery = groq`
-  *[_type=='brands']{
-    ...,
-    
-  } | order(_createdAt desc)
-`;
+// const brandsquery = groq`
+//   *[_type=='brands']{
+//     ...,
 
-const showcasequery = groq`
-  *[_type=='showCase']{
-    ...,
-    
-  } | order(_createdAt desc)
-`;
+//   } | order(_createdAt desc)
+// `;
+
+// const showcasequery = groq`
+//   *[_type=='showCase']{
+//     ...,
+
+//   } | order(_createdAt desc)
+// `;
 
 export const metadata = {
   icons: {
@@ -177,48 +153,46 @@ export const metadata = {
   },
 };
 const HomePage = async () => {
-  const posts = await client.fetch(query);
+  // const posts = await client.fetch(query);
+  const products = await client.fetch(productsquery);
   const homebannerData = await client.fetch(bannerquery);
   const sectionOneData = await client.fetch(onequery);
   const sectionOneData2 = await client.fetch(aboutOnequery);
-  const servicesData = await client.fetch(servicesquery);
-  const workProcessData = await client.fetch(workPorocessquery);
-  const approachData = await client.fetch(approachquery);
-  const clientsData = await client.fetch(clientsquery);
-  const contact = await client.fetch(contactquery);
-  const caseInfo = await client.fetch(caseInfoquery);
-
-  const casesData = await client.fetch(casesquery);
   const blogsData = await client.fetch(blogsquery);
-  const brandsData = await client.fetch(brandsquery);
-  const showcaseData = await client.fetch(showcasequery);
+  const contact = await client.fetch(contactquery);
+  // const servicesData = await client.fetch(servicesquery);
+  // const workProcessData = await client.fetch(workPorocessquery);
+  // const approachData = await client.fetch(approachquery);
+  // const clientsData = await client.fetch(clientsquery);
 
-  //showcasequery
-  console.log(showcaseData);
+  // const caseInfo = await client.fetch(caseInfoquery);
+
+  // const casesData = await client.fetch(casesquery);
+
+  // const brandsData = await client.fetch(brandsquery);
+  // const showcaseData = await client.fetch(showcasequery);
+
+  // //showcasequery
+  // console.log(showcaseData);
 
   return (
     <>
-
-    <div className="arabic">
-      
-    </div>
+      <div className="arabic"></div>
       <Header1 data={contact[0]} />
       <Home1Banner data={homebannerData[0]} />
 
+      <div className=" !top-12 md:!mt-24">
+        <Home1Blog blogsData={blogsData} />
+      </div>
 
-<div className= " !top-12 md:!mt-24">
-<Home1Blog blogsData={blogsData} />
-</div>
-
-
-    
-
-
-
+      <div>
+        <ProducctsHome products={products} />
+      </div>
 
       {/* <Home1BannerMarquee /> */}
       <Home1About data={sectionOneData2[0]} />
-      <Home1Solution data={servicesData} />
+
+      {/* <Home1Solution data={servicesData} />
       <Home1WorkProcess data={workProcessData} />
       <Home1Approach data={approachData} />
       <Home1Testimonial data={clientsData} />
@@ -226,7 +200,7 @@ const HomePage = async () => {
       <LogoMarquee brandsData={brandsData[0]} />
       <Home1Portfolio showcaseData={showcaseData} />
       <Home1Blog blogsData={blogsData} />
-      <Home1Contact contact={contact[0]} />
+      <Home1Contact contact={contact[0]} /> */}
 
       {/* 
      

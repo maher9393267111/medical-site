@@ -29,7 +29,7 @@
             },
             {
                 "id": "2",
-                "label": "Blogs",
+                "label": "Courses",
                 "link": "/blog",
                 "icon": false
             },
@@ -41,16 +41,11 @@
             },
             {
                 "id": "4",
-                "label": "Case Study",
-                "link": "/casestudy",
+                "label": "Shop",
+                "link": "/shop",
                 "icon": false
             },
-            {
-                "id": "5",
-                "label": "Faqs",
-                "link": "/faqs",
-                "icon": false
-            },
+        
             {
                 "id": "6",
                 "label": "About",
@@ -303,15 +298,10 @@
             {
                 "id": "4",
                 "label": "المنتجات",
-                "link": "/casestudy",
+                "link": "/shop",
                 "icon": false
             },
-            {
-                "id": "5",
-                "label": "Faqs",
-                "link": "/faqs",
-                "icon": false
-            },
+        
             {
                 "id": "6",
                 "label": "من نحن",

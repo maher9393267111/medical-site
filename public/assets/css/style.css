@@ -4365,7 +4365,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-about-section .about-content .about-section-title h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
@@ -4388,8 +4388,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-about-section .about-content .about-section-title p {
   color: var(--text-color);
-  font-family: var(--font-inter);
-  font-size: 16px;
+  /* font-family: var(--font-inter); */
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
   padding-top: 20px;
@@ -4576,7 +4576,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-card .content h4 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
@@ -4605,7 +4605,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-card .content p {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8;
@@ -4624,7 +4624,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-card .explore-btn {
   color: var(--title-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 12px;
   font-weight: 500;
   line-height: 1;
@@ -18303,7 +18303,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 ========================================*/
 .service-details-page .service-details-top-area .service-details-top-content h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 60px;
   font-weight: 800;
   line-height: 1;
@@ -18327,7 +18327,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-details-page .service-details-top-area .service-details-top-content p {
   color: var(--text-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.9;

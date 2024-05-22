@@ -13,9 +13,15 @@ export const AboutOne = defineType({
     }),
 
     defineField({
-      name: "title",
+      name: "headingar",
       type: "string",
     }),
+
+
+    // defineField({
+    //   name: "title",
+    //   type: "string",
+    // }),
 
 
 
@@ -42,86 +48,93 @@ export const AboutOne = defineType({
     }),
 
 
+    
+    defineField({
+      name: "descar",
+      description: "Enter a short snippet for the arabic desc...",
+      title: "DescriptionArabic",
+      type: "string",
+    }),
+
 
    
 
  
     // arra
 
-    {
-      name: "achivments",
-      type: "array",
-      title: "Achivments",
-      of: [
-        {
-          type: "object",
-          fields: [
-            {
-              name: "title",
-              type: "string",
-              title: "Title",
-            },
+    // {
+    //   name: "achivments",
+    //   type: "array",
+    //   title: "Achivments",
+    //   of: [
+    //     {
+    //       type: "object",
+    //       fields: [
+    //         {
+    //           name: "title",
+    //           type: "string",
+    //           title: "Title",
+    //         },
 
-            {
-              name: "number",
-              type: "string",
-              title: "Number",
-            },
-            {
-              name: "numbertitle",
-              type: "string",
-              title: "NumberTitle",
-            },
+    //         {
+    //           name: "number",
+    //           type: "string",
+    //           title: "Number",
+    //         },
+    //         {
+    //           name: "numbertitle",
+    //           type: "string",
+    //           title: "NumberTitle",
+    //         },
             
-    ({ name: "Icon", type: "inlineSvg" }),
+    // ({ name: "Icon", type: "inlineSvg" }),
 
 
 
-          ],
+    //       ],
 
-          // show icon instead of icon name
-        },
-      ],
-    },
+    //     },
+    //   ],
+    // },
 
-    {
-      name: "features",
-      type: "array",
-      title: "Features",
-      of: [
-        {
-          type: "object",
-          fields: [
-            {
-              name: "title",
-              type: "string",
-              title: "Title",
-            },
+    // {
+    //   name: "features",
+    //   type: "array",
+    //   title: "Features",
+    //   of: [
+    //     {
+    //       type: "object",
+    //       fields: [
+    //         {
+    //           name: "title",
+    //           type: "string",
+    //           title: "Title",
+    //         },
 
-            {
-              name: "desc",
-              type: "string",
-              title: "Desc",
-            },
+    //         {
+    //           name: "desc",
+    //           type: "string",
+    //           title: "Desc",
+    //         },
 
-            ({
-                name: "image",
-                type: "image",
-                options: { hotspot: true },
-                fields: [
-                  defineField({
-                    name: "alt",
-                    type: "string",
-                    title: "Alternative text",
-                  }),
-                ],
-              }),
-          ],
+    //         ({
+    //             name: "image",
+    //             type: "image",
+    //             options: { hotspot: true },
+    //             fields: [
+    //               defineField({
+    //                 name: "alt",
+    //                 type: "string",
+    //                 title: "Alternative text",
+    //               }),
+    //             ],
+    //           }),
+    //       ],
 
-          // show icon instead of icon name
-        },
-      ],
-    },
+    //       // show icon instead of icon name
+    //     },
+    //   ],
+    // },
 
 
   

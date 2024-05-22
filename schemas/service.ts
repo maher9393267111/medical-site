@@ -12,6 +12,14 @@ export const Service = defineType({
       type: "string",
     }),
 
+
+    defineField({
+      name: "headingar",
+      type: "string",
+    }),
+
+
+
     defineField({
       name: "slug",
       title: "Slug",
@@ -22,112 +30,123 @@ export const Service = defineType({
       },
     }),
 
-    defineField({
-      name: "heading2",
-      type: "string",
-    }),
+    // defineField({
+    //   name: "heading2",
+    //   type: "string",
+    // }),
 
-    defineField({
-      name: "title",
-      type: "string",
-    }),
+
+
+    // defineField({
+    //   name: "title",
+    //   type: "string",
+    // }),
+
+
 
     defineField({
       name: "desc",
-      description: "Enter a short snippet for the blog...",
+      description: "Enter a short snippet for the desc...",
       title: "Description",
       type: "string",
     }),
 
     defineField({
-      name: "desc2",
-      description: "Enter a short snippet for the blog...",
-      title: "Description2",
+      name: "descar",
+      description: "Enter a short snippet for the arabic desc...",
+      title: "DescArabic",
       type: "string",
     }),
 
-    defineField({ name: "sidebarIcon", type: "inlineSvg" }),
+    // defineField({ name: "sidebarIcon", type: "inlineSvg" }),
 
-    defineField({
-      name: "icon",
-      type: "string",
-    }),
+    // defineField({
+    //   name: "icon",
+    //   type: "string",
+    // }),
+
+
+
+
+
 
     // arra
 
-    {
-      name: "list",
-      type: "array",
-      title: "List",
-      of: [
-        {
-          type: "object",
-          fields: [
-            {
-              name: "title",
-              type: "string",
-              title: "Title",
-            },
-          ],
+    // {
+    //   name: "list",
+    //   type: "array",
+    //   title: "List",
+    //   of: [
+    //     {
+    //       type: "object",
+    //       fields: [
+    //         {
+    //           name: "title",
+    //           type: "string",
+    //           title: "Title",
+    //         },
+    //       ],
 
-          // show icon instead of icon name
-        },
-      ],
-    },
+         
+    //     },
+    //   ],
+    // },
 
-    {
-      name: "accordion",
-      type: "array",
-      title: "Accordion",
-      of: [
-        {
-          type: "object",
-          fields: [
-            {
-              name: "question",
-              type: "string",
-              title: "Question",
-            },
 
-            {
-              name: "answer",
-              type: "string",
-              title: "Answer",
-            },
-          ],
 
-          // show icon instead of icon name
-        },
-      ],
-    },
+    // {
+    //   name: "accordion",
+    //   type: "array",
+    //   title: "Accordion",
+    //   of: [
+    //     {
+    //       type: "object",
+    //       fields: [
+    //         {
+    //           name: "question",
+    //           type: "string",
+    //           title: "Question",
+    //         },
+
+    //         {
+    //           name: "answer",
+    //           type: "string",
+    //           title: "Answer",
+    //         },
+    //       ],
+
+    //       // show icon instead of icon name
+    //     },
+    //   ],
+    // },
 
     //steps
 
-    {
-      name: "steps",
-      type: "array",
-      title: "Steps",
-      of: [
-        {
-          type: "object",
-          fields: [
-            {
-              name: "title",
-              type: "string",
-              title: "Title",
-            },
+    // {
+    //   name: "steps",
+    //   type: "array",
+    //   title: "Steps",
+    //   of: [
+    //     {
+    //       type: "object",
+    //       fields: [
+    //         {
+    //           name: "title",
+    //           type: "string",
+    //           title: "Title",
+    //         },
 
-            {
-              name: "desc",
-              type: "string",
-              title: "Desc",
-            },
-          ],
+    //         {
+    //           name: "desc",
+    //           type: "string",
+    //           title: "Desc",
+    //         },
+    //       ],
 
-          // show icon instead of icon name
-        },
-      ],
-    },
+    //       // show icon instead of icon name
+    //     },
+    //   ],
+    // },
 
     defineField({
       name: "image1",
@@ -138,14 +157,14 @@ export const Service = defineType({
       },
     }),
 
-    defineField({
-      name: "image2",
-      title: "Image2",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    }),
+    // defineField({
+    //   name: "image2",
+    //   title: "Image2",
+    //   type: "image",
+    //   options: {
+    //     hotspot: true,
+    //   },
+    // }),
   ],
   icon: DocumentTextIcon,
   preview: {
