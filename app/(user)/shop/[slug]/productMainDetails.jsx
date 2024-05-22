@@ -125,7 +125,10 @@ return (
 {productdata?.images?.map((item, index) => {
 
 return (
-                  <li className="nav-item" role="presentation">
+                  <li
+                  key={index}
+                  
+                  className="nav-item" role="presentation">
                     <button
                       className="nav-link active"
                       id="v-pills-img1-tab"
