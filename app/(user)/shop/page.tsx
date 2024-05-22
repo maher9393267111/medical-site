@@ -4,7 +4,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { groq } from "next-sanity";
 import { client } from "../../../lib/sanity.client";
-import MainCases from "./mainComp";
+import MainShop from "./mainShop";
 
 export const revalidate = 30;
 
@@ -30,7 +30,7 @@ const contactquery = groq`
 //   },
 // };
 
-export default function Case() {
+export default function ShopPage() {
   const searchParams = useSearchParams();
 
   const [cases, setCases] = useState([]);
@@ -40,10 +40,10 @@ export default function Case() {
 
   const getCases = async () => {
     const casesdata = await client.fetch(groq`
-         *[_type=='casestudy'] {
+         *[_type=='product'] {
            ...,
           
-           category->
+        
          } | order(_createdAt desc) [${offset}...${offset + 2}] 
        `);
 
@@ -64,7 +64,7 @@ export default function Case() {
 
   return (
     <div>
-   <MainCases   loadMore={getCases} contact={contacts[0]} cases={cases} />
+   <MainShop   loadMore={getCases} contact={contacts[0]} products={cases} />
     </div>
   );
 }
@@ -72,51 +72,50 @@ export default function Case() {
 
 
 
-//import { groq } from "next-sanity";
+// // -----------------
+// import MainShop from './mainShop'
+// import { groq } from "next-sanity";
 // import { client } from "../../../lib/sanity.client";
-// import MainCases from "./mainComp";
 
 // export const revalidate = 30;
 
-// const query = groq`
-//   *[_type=='casestudy'] {
-//     ...,
 
-//     category->
+
+// const productsquery = groq`
+//   *[_type=='product'] {
+//     ...,
+    
+    
 //   } | order(_createdAt desc)
+//   [0...3]
 // `;
 
-// const contactquery = groq`
-//   *[_type=='contact'] {
-//     ...,
+// const ProductsPage = async () => {
+//   const products = await client.fetch(productsquery);
 
-//   } | order(_createdAt desc)
-// `;
-
-// export const metadata = {
-//   icons: {
-//     icon: "/assets/img/sm-logo.svg",
-//   },
-// };
-
-// interface Props {
-//   searchParams: {
-//     category?: string;
-//     tag?: any;
-//   };
-// }
-
-// const CasePage = async ({ searchParams }: Props) => {
-//   const cases = await client.fetch(query);
-//   const contact = await client.fetch(contactquery);
-//   console.log(cases);
-//   //?category=development
 
 //   return (
 //     <>
-//       <MainCases contact={contact[0]} cases={cases} />
-//     </>
+
+//     <div className="arabic">
+      
+
+// <MainShop products={products}/>
+
+
+
+
+// </div>
+
+// </>
+    
+
+
+
+
+
+ 
 //   );
 // };
 
-// export default CasePage;
+// export default ProductsPage;
