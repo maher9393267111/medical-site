@@ -181,7 +181,7 @@ return (
                     //   router.replace(`/blog/?category=${cat?.title}`)
                     // }}
                     >
-                       <Link href={`/blog?category=${cat?.title}`}  passHref> 
+                       <Link href={`/course?category=${cat?.title}`}  passHref> 
                         <span  className=" arabic !cursor-pointer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

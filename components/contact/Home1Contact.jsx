@@ -318,7 +318,7 @@ console.log("TRANSLATE___----___" ,t)
                       </div>
                     </div>
                     {!!welcomeMessage && (
-            <Alert variant="success" className="my-2">
+            <Alert variant="success" className="my-2 arabic">
               <p>{welcomeMessage}</p>
             </Alert>
           )}
