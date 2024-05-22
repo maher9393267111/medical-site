@@ -65,10 +65,10 @@ return (
             >
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
-                  <Link href={`/blog/${blog?.slug.current}`}  className="card-img">
+                  <Link href={`/course/${blog?.slug.current}`}  className="card-img">
                     <img  src={urlFor(blog.mainImage)?.url()}   alt="" />
                   </Link>
-                  <Link href={`/blog/${blog?.slug?.current}`}  className="date">
+                  <Link href={`/course/${blog?.slug?.current}`}  className="date">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={15}
@@ -101,11 +101,11 @@ return (
                     </div> */}
                   </div>
                   <h4>
-                    <Link className="arabic" href={`/blog/${blog?.slug.current}`} >
+                    <Link className="arabic" href={`/course/${blog?.slug.current}`} >
                     { lang === 'en' ? blog?.title : blog?.titlear}
                     </Link>
                   </h4>
-                  <Link  href={`/blog/${blog?.slug?.current}`}  className="read-more-btn !font-semibold arabic">
+                  <Link  href={`/course/${blog?.slug?.current}`}  className="read-more-btn !font-semibold arabic">
                   { lang === 'en' ? " Read More" : 'اقرأالمزيد'}  
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

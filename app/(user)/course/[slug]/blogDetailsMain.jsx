@@ -148,7 +148,9 @@ const BlogDetailsMain = ({ blog }) => {
           </div>
 
           {/* -----PREV AND NEXT--- */}
-          <div className="row mb-120">
+
+
+          {/* <div className="row mb-120">
             <div className="col-lg-12">
               <div className="details-navigation">
                 <div className="single-navigation">
@@ -169,7 +171,7 @@ const BlogDetailsMain = ({ blog }) => {
 
                       {blog?.prev !== null && (
                         <div className="nav-btn">
-                          <Link href={`/blog/${blog?.prev?.current}`}>
+                          <Link href={`/course/${blog?.prev?.current}`}>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={10}
@@ -213,7 +215,7 @@ const BlogDetailsMain = ({ blog }) => {
 
                       {blog?.next !== null && (
                         <div className="nav-btn">
-                          <Link href={`/blog/${blog?.next?.current}`}>
+                          <Link href={`/course/${blog?.next?.current}`}>
                             <span>NEXT BLOG</span>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -235,7 +237,9 @@ const BlogDetailsMain = ({ blog }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
         </div>
       </div>
     </MainLayout>

@@ -1099,7 +1099,7 @@ ul {
   border: none;
   background-image: linear-gradient(0deg, #fff 0%, #fff 100%);
   color: var(--dark-white-color);
-  font-family: var(--font-inter);
+  /* font-family: var(--font-inter); */
   font-size: 15px;
   font-weight: 500;
   white-space: nowrap;

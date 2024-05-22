@@ -30,7 +30,7 @@
             {
                 "id": "2",
                 "label": "Courses",
-                "link": "/blog",
+                "link": "/course",
                 "icon": false
             },
             {
@@ -286,7 +286,7 @@
             {
                 "id": "2",
                 "label": "الكورسات",
-                "link": "/blog",
+                "link": "/course",
                 "icon": false
             },
             {

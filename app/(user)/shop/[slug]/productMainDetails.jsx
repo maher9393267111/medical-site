@@ -31,7 +31,7 @@ const ProductDetailsPage = ({productdata}) => {
     >
 
 
-{productdata?.titlear}
+
 
       <div
         className="product-details-top-section scroll-margin pt-120 mb-120"

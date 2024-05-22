@@ -34,7 +34,7 @@ export default function MainService({data ,contact}) {
               data-wow-duration="1500ms"
             >
               <div dir={dir} className="service-details-top-content">
-                <h2 className='arabic'>
+                <h2 className='arabic !text-xl md:!text-3xl'>
                    { lang === 'en' ? data?.heading : data?.headingar}
                   {/* Software <span>Development.</span> */}
                 </h2>

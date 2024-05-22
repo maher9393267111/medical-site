@@ -53,10 +53,10 @@ return (
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href={`/blog/${blog?.slug.current}`} className="card-img">
+                  <Link href={`/course/${blog?.slug.current}`} className="card-img">
                     <img   src={urlFor(blog.mainImage)?.url()}  alt="" />
                   </Link>
-                  <Link href={`/blog/${blog?.slug.current}`} className="date">
+                  <Link href={`/course/${blog?.slug.current}`} className="date">
                     <span>
                       {/* <strong>15</strong> January */}
                       <stong>
@@ -87,11 +87,11 @@ return (
                     </div> */}
                   </div>
                   <h4>
-                    <Link  href={`/blog/${blog?.slug.current}`}>
+                    <Link  href={`/course/${blog?.slug.current}`}>
                     { lang === 'en' ? blog?.title : blog?.titlear}
                     </Link>
                   </h4>
-                  <Link  href={`/blog/${blog?.slug.current}`} className="read-more-btn">
+                  <Link  href={`/course/${blog?.slug.current}`} className="read-more-btn">
                   { lang === 'en' ? " Read More" : 'اقرأالمزيد'} 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -133,9 +133,11 @@ return (
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
             >
-              <button onClick={loadMore}  className="load-btn">
+              <button onClick={loadMore}  className="load-btn arabic">
                 <span>
-                  Load More
+
+                  {lang === 'en' ? 'Load More' : 'عرض المزيد'}
+                  
                   <svg viewBox="0 0 13 20">
                     <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                   </svg>
@@ -234,7 +236,7 @@ return (
                   <div key={index} className="recent-post-widget mb-20">
                     <div className="recent-post-img">
                       <Link 
-                      href={`/blog/${post?.slug.current}`} 
+                      href={`/course/${post?.slug.current}`} 
                       >
                         <img
                           src={urlFor(post.mainImage).url()} 
@@ -244,11 +246,11 @@ return (
                     </div>
                     <div className="recent-post-content">
                       <Link 
-                    href={`/blog/${post?.slug.current}`} 
+                    href={`/course/${post?.slug.current}`} 
                       
                       >20 January, 2024</Link>
                       <h6>
-                        <Link href={`/blog/${post?.slug.current}`} >
+                        <Link href={`/course/${post?.slug.current}`} >
                           Looking Inspiration Traveling The World.
                         </Link>
                       </h6>
