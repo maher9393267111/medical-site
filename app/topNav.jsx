@@ -2,7 +2,7 @@ import React ,{useCallback} from 'react'
 import { useLanguageContext } from './languageContext'
 import LanguageToggle from './selectLanguage'
 import english from '../public/assets/english.png'
-import arabic from '../public/assets/arabic.png'
+import arabic from '../public/assets/arabic2.png'
 
 export default function TopNav() {
 
