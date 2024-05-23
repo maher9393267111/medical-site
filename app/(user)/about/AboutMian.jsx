@@ -93,7 +93,28 @@ const AboutpageMain = ({ aboutOneData ,contact,steps  , partners ,awards ,discov
     <Home1About data={aboutOneData}/>
 
 
-    <div dir={dir} className="partnership-area mb-120 mx-12">
+    <div dir={dir} className="partnership-area mb-120 mx-4 md:mx-24">
+
+
+    <div className="row">
+            <div
+              className="col-lg-12 mb-70 d-flex flex-wrap gap-3 align-items-end justify-content-between wow animate fadeInDown"
+              data-wow-delay="200ms"
+              data-wow-duration="1500ms"
+            >
+              <div  className="section-title5">
+                <h2 dir={dir} className="arabic">
+
+                   {lang === 'en' ? ' Our Partnerships' : 'شركائنا'} 
+                 
+                </h2>
+              </div>
+           
+            </div>
+          </div>
+
+
+
      <div className="row g-4">
           {partners?.map((partner, index) => {
 return (

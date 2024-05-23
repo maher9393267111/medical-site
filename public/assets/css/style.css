@@ -1625,7 +1625,7 @@ ul {
 
 .section-title5 h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  /* font-family: var(--font-hankenGrotesk); */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.1;
