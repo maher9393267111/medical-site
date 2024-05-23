@@ -80,11 +80,11 @@ const contactquery = groq`
 
       const blogs = await client.fetch(groq`${filter} {
   ...
-  } | order(_createdAt desc) [${offset}...${offset + 2}] `);
+  } | order(_createdAt desc) [${offset}...${offset + 3}] `);
 
       setPosts([...blogs]);
       setPosts([...posts, ...blogs]);
-      setOffset(offset + 2);
+      setOffset(offset + 3);
       console.log(blogs);
     }
   };

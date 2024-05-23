@@ -14221,7 +14221,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
     font-size: 15px;
   }
 }
-.partnership-area .single-pertner:hover {
+/* .partnership-area .single-pertner:hover {
   background-color: var(--title-color);
 }
 .partnership-area .single-pertner:hover svg {
@@ -14240,7 +14240,10 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .partnership-area .single-pertner:hover .partner-logos .white {
   display: block;
   visibility: visible;
-}
+} */
+
+
+
 .partnership-area .total-partner a {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);

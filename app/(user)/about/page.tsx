@@ -39,30 +39,8 @@ const partnersquery = groq`
   } | order(_createdAt desc)
 `;
 
-const stepsquery = groq`
-  *[_type=='aboutSteps'] {
-    ...
-    
-   
-  } | order(_createdAt desc)
-`;
-
-const discoverquery = groq`
-  *[_type=='aboutDiscover'] {
-    ...
-    
-   
-  } | order(_createdAt desc)
-`;
 
 
-const awardsquery = groq`
-  *[_type=='aboutAwards'] {
-    ...
-    
-   
-  } | order(_createdAt desc)
-`;
 
 
 const contactquery = groq`
@@ -84,13 +62,11 @@ export const metadata = {
 const AboutPage = async () => {
   const aboutOneData = await client.fetch(query);
   const partnersData = await client.fetch(partnersquery);
-  const stepsData = await client.fetch(stepsquery);
-  const discoverData = await client.fetch(discoverquery);
-  const awardsData = await client.fetch(awardsquery);
+
 
   const contact = await client.fetch(contactquery);
 
-console.log(discoverData[0])
+
 
   return (
     <>
@@ -98,10 +74,9 @@ console.log(discoverData[0])
     <AboutOneMAin
      aboutOneData={aboutOneData[0]}
      contact ={contact}
-     steps={stepsData}
+     
      partners ={partnersData}
-     awards={awardsData[0]}
-     discover ={discoverData[0]}
+   
      />
   
     </>

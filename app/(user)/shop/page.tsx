@@ -44,11 +44,11 @@ export default function ShopPage() {
            ...,
           
         
-         } | order(_createdAt desc) [${offset}...${offset + 2}] 
+         } | order(_createdAt desc) [${offset}...${offset + 3}] 
        `);
 
     setCases([...cases, ...casesdata]);
-    setOffset(offset + 2);
+    setOffset(offset + 3);
     console.log(cases);
   };
 

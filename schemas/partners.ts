@@ -21,8 +21,8 @@ export const Partners = defineType({
 
 
     defineField({
-      name: "imagewhite",
-      title: "imageWhite",
+      name: "image",
+      title: "image",
       type: "image",
       options: {
         hotspot: true,
@@ -31,14 +31,14 @@ export const Partners = defineType({
 
 
     
-    defineField({
-        name: "imageblack",
-        title: "imageBlack",
-        type: "image",
-        options: {
-          hotspot: true,
-        },
-      }),
+    // defineField({
+    //     name: "imageblack",
+    //     title: "imageBlack",
+    //     type: "image",
+    //     options: {
+    //       hotspot: true,
+    //     },
+    //   }),
   
 
 
