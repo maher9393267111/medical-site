@@ -208,7 +208,7 @@ const HomePage = async () => {
      
       */}
 
-      {/* <Footer /> */}
+      <Footer data={contact[0]} />
     </>
   );
 };
