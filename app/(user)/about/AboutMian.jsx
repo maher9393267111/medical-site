@@ -93,10 +93,10 @@ const AboutpageMain = ({ aboutOneData ,contact,steps  , partners ,awards ,discov
     <Home1About data={aboutOneData}/>
 
 
-    <div dir={dir} className="partnership-area mb-120 mx-4 md:mx-24">
+    <div dir={dir} className="partnership-area mb-120 mx- container">
 
 
-    <div className="row">
+    <div className="row container">
             <div
               className="col-lg-12 mb-70 d-flex flex-wrap gap-3 align-items-end justify-content-between wow animate fadeInDown"
               data-wow-delay="200ms"
