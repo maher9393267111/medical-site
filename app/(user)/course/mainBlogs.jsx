@@ -38,119 +38,6 @@ const router =useRouter()
           <div className="row g-lg-4 gy-5">
 
 
-
-
-<div className="col-lg-8">
-<div className="row g-lg-4 gy-5">
-          {blogs?.map((blog, index) => {
-
-return (
-            <div
-            key={index}
-              className="col-lg-6 col-md-6 wow animate fadeInDown"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="blog-card style-2">
-                <div className="blog-card-img-wrap">
-                  <Link href={`/course/${blog?.slug.current}`} className="card-img">
-                    <img   src={urlFor(blog.mainImage)?.url()}  alt="" />
-                  </Link>
-                  <Link href={`/course/${blog?.slug.current}`} className="date">
-                    <span>
-                      {/* <strong>15</strong> January */}
-                      <stong>
-
-                    
-                      {new Date(blog?._createdAt).toLocaleDateString('en', {
-                        day: 'numeric',
-                        month: 'long',
-                        year: 'numeric',
-                      })}
-                        </stong>
-                    </span>
-                  </Link>
-                </div>
-                <div className="card-content">
-                  <div className="blog-meta">
-                    <ul className="category">
-                        
-                      <li>
-                        <Link href="/blog">
-                        {blog?.categories && ( lang === 'en' ? blog?.categories[0]?.title : blog?.categories[0]?.titlear )}
-                        </Link>
-                     </li>
-           
-                    </ul>
-                    {/* <div className="blog-comment">
-                      <span>Comment (20)</span>
-                    </div> */}
-                  </div>
-                  <h4>
-                    <Link  href={`/course/${blog?.slug.current}`}>
-                    { lang === 'en' ? blog?.title : blog?.titlear}
-                    </Link>
-                  </h4>
-                  <Link  href={`/course/${blog?.slug.current}`} className="read-more-btn">
-                  { lang === 'en' ? " Read More" : 'اقرأالمزيد'} 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={10}
-                      height={10}
-                      viewBox="0 0 10 10"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-                      />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
-            </div>
-)})}
-
-</div>
-
-
-{/* <div className="load-me flex justify-center">
-
-
-
-<button className="load-btn text-white !mt-12 !text-center !block" onClick={loadMore}>
-  Load More
-</button>
-
-
-</div> */}
-
-{!isparams &&
-
-<div className="row mtt !mt-[44px]">
-            <div
-              className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <button onClick={loadMore}  className="load-btn arabic">
-                <span>
-
-                  {lang === 'en' ? 'Load More' : 'عرض المزيد'}
-                  
-                  <svg viewBox="0 0 13 20">
-                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div>
-
-}
-
-
-</div>
-
 {/* Sidebar */}
 <div
               className="col-lg-4 wow animate fadeInRight"
@@ -293,6 +180,127 @@ return (
                 </div> */}
               </div>
             </div>
+
+{/* COURSES */}
+<div className="col-lg-8">
+<div className="row g-lg-4 gy-5">
+          {blogs?.map((blog, index) => {
+
+return (
+            <div
+            key={index}
+              className="col-lg-6 col-md-6 wow animate fadeInDown"
+              data-wow-delay="200ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="blog-card style-2">
+                <div className="blog-card-img-wrap">
+                  <Link href={`/course/${blog?.slug.current}`} className="card-img">
+                    <img   src={urlFor(blog.mainImage)?.url()}  alt="" />
+                  </Link>
+                  <Link href={`/course/${blog?.slug.current}`} className="date">
+                    <span>
+                      {/* <strong>15</strong> January */}
+                      <stong>
+
+                    
+                      {new Date(blog?._createdAt).toLocaleDateString('en', {
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric',
+                      })}
+                        </stong>
+                    </span>
+                  </Link>
+                </div>
+                <div dir={dir} className="card-content">
+                  <div className="blog-meta">
+                    <ul className="category">
+                        
+                      <li>
+                        <Link href="/blog">
+                        {blog?.categories && ( lang === 'en' ? blog?.categories[0]?.title : blog?.categories[0]?.titlear )}
+                        </Link>
+                     </li>
+           
+                    </ul>
+                    {/* <div className="blog-comment">
+                      <span>Comment (20)</span>
+                    </div> */}
+                  </div>
+                  <h4>
+                    <Link  href={`/course/${blog?.slug.current}`}>
+                    { lang === 'en' ? blog?.title : blog?.titlear}
+                    </Link>
+                  </h4>
+                  <Link  href={`/course/${blog?.slug.current}`} className="read-more-btn">
+                  { lang === 'en' ? " Read More" : 'اقرأالمزيد'} 
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={10}
+                      height={10}
+                      viewBox="0 0 10 10"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
+                      />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
+            </div>
+)})}
+
+</div>
+
+
+{/* <div className="load-me flex justify-center">
+
+
+
+<button className="load-btn text-white !mt-12 !text-center !block" onClick={loadMore}>
+  Load More
+</button>
+
+
+</div> */}
+
+{!isparams &&
+
+<div className="row mtt !mt-[44px]">
+            <div
+              className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="1500ms"
+            >
+              <button onClick={loadMore}  className="load-btn arabic">
+                <span>
+
+                  {lang === 'en' ? 'Load More' : 'عرض المزيد'}
+                  
+                  <svg viewBox="0 0 13 20">
+                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+
+}
+
+
+</div>
+
+
+
+
+
+
+
+
+
 
          </div>
         </div>
