@@ -7,7 +7,7 @@ import { useLanguageContext } from '../../languageContext'
 
 import urlFor from "../../../lib/urlFor";
 
-const ShopPageMain = ({products ,contact , loadMore} ) => {
+const ShopPageMain = ({products , loadMore , contact} ) => {
 
 
     const { language :lang } = useLanguageContext()
@@ -18,7 +18,7 @@ const ShopPageMain = ({products ,contact , loadMore} ) => {
   useWow()
   return (
     <MainLayout
-    
+    contact ={contact}
         
     page={lang === 'en' ? 'Products' :  'المنتجات' } title={lang === 'en' ? 'Products' :  'المنتجات'}
     

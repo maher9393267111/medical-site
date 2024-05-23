@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { useLanguageContext } from '../../languageContext'
 
 
-const BlogpageMain = ({blogs ,catsData ,tagsData ,newpostsData ,loadMore ,isparams }) => {
+const BlogpageMain = ({blogs ,catsData ,tagsData ,newpostsData ,loadMore ,isparams ,contact }) => {
 
 console.log("BLOGS WHERE-->" , blogs)
   const { language :lang } = useLanguageContext()
@@ -25,6 +25,7 @@ const router =useRouter()
 
   return (
     <MainLayout
+    contact ={contact}
     
     page={lang === 'en' ? 'Courses' :  "الكورسات" } title={lang === 'en' ?  'Courses' :  "الكورسات"}
     

@@ -10,7 +10,7 @@ import { PortableText } from "@portabletext/react";
 import { RichTextComponents } from "../../../../components/RichTextComponents";
 
 
-const ProductDetailsPage = ({productdata}) => {
+const ProductDetailsPage = ({productdata , contact}) => {
   const { quantity, increment, decrement, handleInputChange } =
     useQuantityCounter(1);
 
@@ -25,7 +25,7 @@ const ProductDetailsPage = ({productdata}) => {
 
   return (
     <MainLayout
-    
+    contact ={contact}
         
     page={lang === 'en' ? 'Product details' :  'تفاصيل المنتج' } title={lang === 'en' ? 'Product details' :  'تفاصيل المنتج'}
     >

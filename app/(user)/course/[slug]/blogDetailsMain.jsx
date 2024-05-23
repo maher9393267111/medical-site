@@ -10,7 +10,7 @@ import { RichTextComponents } from "../../../../components/RichTextComponents";
 import { useLanguageContext } from '../../../languageContext'
 
 
-const BlogDetailsMain = ({ blog }) => {
+const BlogDetailsMain = ({ blog , contact }) => {
 
 
   const { language :lang } = useLanguageContext()
@@ -21,6 +21,7 @@ const BlogDetailsMain = ({ blog }) => {
   useWow();
   return (
     <MainLayout 
+    contact ={contact}
     page={lang === 'en' ? 'Course detials' :  'تفاصيل الكورس' } title={lang === 'en' ?  'Course detials' :  'تفاصيل الكورس'}
     
     >

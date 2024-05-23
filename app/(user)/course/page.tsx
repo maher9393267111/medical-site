@@ -16,6 +16,8 @@ export default function BlogPage() {
   const [cats, setCats] = useState([]);
   const [tags, setTags] = useState([]);
   const [newposts, setNewPosts] = useState([]);
+  const [contact , setContact] =  useState([])
+
 
   const nepostsquery = groq`
   *[_type=='post'] {
@@ -39,6 +41,18 @@ export default function BlogPage() {
 
   } | order(_createdAt desc)
 `;
+
+
+const contactquery = groq`
+  *[_type=='contact'] {
+    ...,
+    
+    
+  } | order(_createdAt desc)
+`;
+
+
+
 
   const [offset, setOffset] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -91,11 +105,25 @@ export default function BlogPage() {
     console.log(newposts);
   };
 
+
+  const getContact= async () => {
+    const newData = await client.fetch(contactquery);
+    setContact(newData);
+   
+  };
+
+
+
+
+
+
+
   useEffect(() => {
     getPosts();
     getCats();
     getTags();
     getNewPosts();
+    getContact()
   }, [cat, tag]);
 
   return (
@@ -107,6 +135,7 @@ export default function BlogPage() {
         catsData={cats}
         blogs={posts}
         loadMore={getPosts}
+        contact = {contact[0]}
       />
     </div>
   );

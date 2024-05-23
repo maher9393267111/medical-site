@@ -31,10 +31,25 @@ type Props = {
 
   }`;
 
+
+
+  const contactquery = groq`
+  *[_type=='contact'] {
+    ...,
+    
+    
+  } | order(_createdAt desc)
+`;
+
+
+
+
+
 const BlogDetailPage = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
 
   const blog = await client.fetch(query, { slug }) || [];
+  const contact = await client.fetch(contactquery);
 console.log("BLOG" , blog?.prev ,blog?.next)
 
   return (
@@ -44,7 +59,9 @@ console.log("BLOG" , blog?.prev ,blog?.next)
     >
 
 {/* <BlogDetailsFake/> */}
-    <MainBlogDetails blog={blog} />  
+    <MainBlogDetails
+    contact = {contact[0]}
+    blog={blog} />  
 
       {/* <div className=' mt-24 mx-12'>
       <PortableText value={post?.body} components={RichTextComponents} />
