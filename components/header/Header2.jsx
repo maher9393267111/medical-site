@@ -106,14 +106,14 @@ const Header2 = ({data}) => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="/assets/img/logo.svg"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-light.svg"
+                  src="/assets/img/logo-light.svg"
                 />
               </Link>
 

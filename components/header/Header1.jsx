@@ -104,14 +104,14 @@ console.log("TRANSLATE--->" , t)
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="/assets/img/logo.svg"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-light.svg"
+                  src="/assets/img/logo-light.svg"
                 />
               </Link>
 
@@ -990,14 +990,14 @@ console.log("TRANSLATE--->" , t)
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="/assets/img/logo.svg"
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo-light.svg"
+                src="/assets/img/logo-light.svg"
               />
             </Link>
           </div>
