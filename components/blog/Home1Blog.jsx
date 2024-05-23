@@ -63,7 +63,7 @@ return (
               data-wow-delay="200ms"
               data-wow-duration="500ms"
             >
-              <div className="blog-card">
+              <div className="blog-card  !borde  px-2 pb-2 !shadow-2xl !border-1  !border-black">
                 <div className="blog-card-img-wrap">
                   <Link href={`/course/${blog?.slug.current}`}  className="card-img">
                     <img  src={urlFor(blog.mainImage)?.url()}   alt="" />

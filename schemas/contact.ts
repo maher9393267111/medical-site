@@ -14,21 +14,21 @@ export const Contact = defineType({
 
   
 
-    defineField({
-      name: "footerheading",
-      type: "string",
-    }),
+    // defineField({
+    //   name: "footerheading",
+    //   type: "string",
+    // }),
 
-    defineField({
-      name: "title",
-      type: "string",
-    }),
+    // defineField({
+    //   name: "title",
+    //   type: "string",
+    // }),
 
 
-    defineField({
-        name: "footertitle",
-        type: "string",
-      }),
+    // defineField({
+    //     name: "footertitle",
+    //     type: "string",
+    //   }),
   
 
       defineField({
@@ -40,22 +40,26 @@ export const Contact = defineType({
 
 
 
-    defineField({
-      name: "desc",
-      description: "Enter a short snippet for the blog...",
-      title: "Description",
-      type: "string",
-    }),
+    // defineField({
+    //   name: "desc",
+    //   description: "Enter a short snippet for the blog...",
+    //   title: "Description",
+    //   type: "string",
+    // }),
 
-    defineField({
-        name: "footerdesc",
-        description: "Enter a short snippet for the blog...",
-        title: "FooterDescription",
-        type: "string",
-      }),
+    // defineField({
+    //     name: "footerdesc",
+    //     description: "Enter a short snippet for the blog...",
+    //     title: "FooterDescription",
+    //     type: "string",
+    //   }),
 
  
-
+    
+    defineField({
+      name: "whatsapp",
+      type: "string",
+    }),
 
 
       defineField({

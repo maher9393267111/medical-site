@@ -45,7 +45,7 @@ const router =useRouter()
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
             >
-              <div className="sidebar-area">
+              <div className="sidebar-area  ">
                 {/* <div className="single-widget mb-30">
                   <h5 className="widget-title">Search Here</h5>
                   <form>
@@ -57,7 +57,7 @@ const router =useRouter()
                     </div>
                   </form>
                 </div> */}
-                <div className="single-widget mb-30">
+                <div  className="single-widget !border !border-black mb-30">
                   <h5 className="widget-title arabic">{lang === 'en' ?  'Category' : 'القسم'}</h5>
                   <ul className="category-list">
                   {catsData?.map((cat, index) => {
@@ -70,7 +70,7 @@ const router =useRouter()
                     // }}
                     >
                        <Link href={`/course?category=${cat?.title}`}  passHref> 
-                        <span  className=" arabic !cursor-pointer">
+                        <span  className=" !font-semibold arabic !cursor-pointer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={13}
@@ -85,7 +85,7 @@ const router =useRouter()
                           </svg>
                           {lang === 'en' ? cat?.title :cat?.titlear}
                         </span>
-                        <span>({cat?.count})</span>
+                        <span className="arabic">({cat?.count})</span>
                       </Link>
                     </li>
 

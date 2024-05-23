@@ -68,7 +68,7 @@ return (
           data-wow-delay="200ms"
           data-wow-duration="1500ms"
         >
-          <div className="product-card">
+          <div className="product-card !border !border-black">
             <div className="product-card-img">
               <Link href={`/shop/${item?.slug.current}`}>
                 <img 

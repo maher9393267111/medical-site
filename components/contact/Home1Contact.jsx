@@ -88,7 +88,9 @@ console.log("TRANSLATE___----___" ,t)
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
               <div className="contact-content">
-                <div
+
+
+                {/* <div
                   className="section-title white wow animate fadeInUp"
                   data-wow-delay="200ms"
                   data-wow-duration="500ms"
@@ -118,13 +120,16 @@ console.log("TRANSLATE___----___" ,t)
                   </span>
                   <h2>{contact?.footertitle}</h2>
                   <p>{contact?.footerdesc}</p>
-                </div>
+                </div> */}
+
+
+
                 <div
                   className="contact-area wow animate fadeInUp"
                   data-wow-delay="300ms"
                   data-wow-duration="1000ms"
                 >
-                  <div className="hotline-area mb-40">
+                  <div className="hotline-area mb-12">
                     <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
