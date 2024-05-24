@@ -28,7 +28,7 @@ console.log("TRANSLATE___----___" ,t)
     phone: "",
 
     message: "",
-    email: "",
+    email: "customer@gmail.com",
 
     error: false,
   });
@@ -51,7 +51,7 @@ console.log("TRANSLATE___----___" ,t)
       if (!state.phone && !state.name && !state.email && !state.message) {
         console.log("ERROR CONDITION @@@@@@");
         setstate({ ...state, error: true });
-        message.info("يرجا تعبئة كافة الحقول");
+      //  message.info("يرجا تعبئة كافة الحقول");
       } else {
         const res = await fetch("/api/contact", {
           method: "POST",
@@ -230,12 +230,13 @@ console.log("TRANSLATE___----___" ,t)
                     <div className="row">
                       <div className="col-lg-6 mb-12">
                         <div className="form-inner">
-                          <label>{t?.name}</label>
+                          <label>{t?.name} *</label>
                           <input
                             name="name"
                             onChange={inputChange}
                             value={state.name}
                             type="text"
+                            required="true"
                           />
                         </div>
                       </div>
@@ -259,11 +260,12 @@ console.log("TRANSLATE___----___" ,t)
                             onChange={inputChange}
                             value={state.phone}
                             type="text"
+                            required="true"
                           />
                         </div>
                       </div>
 
-                      <div className="col-lg-6 mb-12">
+                      {/* <div className="col-lg-6 mb-12">
                         <div className="form-inner">
                           <label> {t?.email} *</label>
                           <input
@@ -273,7 +275,7 @@ console.log("TRANSLATE___----___" ,t)
                             type="email"
                           />
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* <div className="col-lg-6 mb-20">
                         <div className="form-inner">
