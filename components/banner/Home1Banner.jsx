@@ -23,6 +23,7 @@ const Home1Banner = ({data}) => {
       slidesPerView: 1,
       speed: 2500,
       spaceBetween: 25,
+      autoplay:true,
       effect: "fade", // Use the fade effect
       fadeEffect: {
         crossFade: true, // Enable cross-fade transition
