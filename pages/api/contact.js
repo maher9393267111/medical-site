@@ -18,12 +18,13 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-async function sendEmail({ name, email, phone,message }) {
+async function sendEmail({ name, email, phone,message ,to }) {
     console.log("SEND????????" ,name ,email ,phone ,message)
     const defaultYear = new Date().getFullYear();
   const emailOptions = {
     form: email,
-    to: "basma94ghanem@gmail.com",
+    to: to,
+    //"basma94ghanem@gmail.com",
     subject: `Contact Message from ${email}`,
     html: `<body style="background: #f3f4f6; padding:0 5px;">
     <div style="max-width: 600px; margin: 0 auto; padding: 20px 0; font-family:Trebuchet MS;">
@@ -36,7 +37,7 @@ async function sendEmail({ name, email, phone,message }) {
         <p style="font-size:1rem;"><strong> Email: </strong> ${email}</p>
         <p style="font-size:1rem;"><strong> Phone: </strong> ${phone}</p>
         
-       >
+       
           
         <p style="font-size:1rem;"><strong>Message: </strong> ${message}</p>
           

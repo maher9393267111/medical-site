@@ -273,7 +273,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   color: var(--title-color);
   font-size: 16px;
   font-weight: 400;
@@ -1450,7 +1450,7 @@ ul {
 }
 .section-title h2 {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
@@ -1532,7 +1532,7 @@ ul {
 }
 .section-title2 h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2; /* 120% */
@@ -1588,7 +1588,7 @@ ul {
 }
 .section-title3 h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
@@ -1625,7 +1625,7 @@ ul {
 
 .section-title5 h2 {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.1;
@@ -1925,7 +1925,7 @@ header.style-1 .nav-right .right-sidebar-and-hotline-area .hotline-area .content
   line-height: 1;
 }
 header.style-1 .nav-right .right-sidebar-and-hotline-area .hotline-area .content h6 a {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -2137,7 +2137,7 @@ header.style-1 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 15px 15px;
   color: var(--title-color);
   font-weight: 400;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1.3;
@@ -2445,7 +2445,7 @@ header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area .content
   line-height: 1;
 }
 header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area .content h6 a {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -2650,7 +2650,7 @@ header.style-2 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 15px 15px;
   color: var(--title-color);
   font-weight: 400;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1.3;
@@ -2965,7 +2965,7 @@ header.style-3 .nav-right .sidebar-and-btn .hotline-area .content h6 {
   line-height: 1;
 }
 header.style-3 .nav-right .sidebar-and-btn .hotline-area .content h6 a {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 600;
   font-size: 15px;
   line-height: 1;
@@ -3138,7 +3138,7 @@ header.style-3 .main-menu > ul > li ul.sub-menu > li > a {
   padding: 15px 15px;
   color: var(--title-color);
   font-weight: 400;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1.3;
@@ -3392,7 +3392,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-menu .sidebar-contact .getin-touch-area h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 35px;
@@ -3473,7 +3473,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-menu .sidebar-contact .social-link-area h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 800;
   margin-bottom: 0;
@@ -3809,7 +3809,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-menu .sidebar-menu-wrap .main-menu > li .submenu-list li a {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
@@ -4238,7 +4238,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .feature-card .content h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 27px;
   font-weight: 700;
   line-height: 1.2;
@@ -4372,7 +4372,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-about-section .about-content .about-section-title h2 {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 50px;
   font-weight: 800;
   line-height: 1.2;
@@ -4458,7 +4458,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-about-section .about-countdown-area ul .single-countdown .content .number {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   display: flex;
   align-items: baseline;
@@ -4583,7 +4583,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-card .content h4 a {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
@@ -4767,7 +4767,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .eg-card .card-content .catgory-and-title h5 {
   margin-bottom: 0;
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 500;
   transition: 0.35s;
@@ -4780,7 +4780,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 
 .eg-card .card-content .catgory-and-title h5 a {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 500;
   transition: 0.35s;
@@ -4973,7 +4973,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-card .card-content h4 a {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 28px;
   font-weight: 600;
   line-height: 1.4;
@@ -5325,7 +5325,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-approach-section .approach-area .single-approach .approach-content-wrap .scroll-content-area .content span {
   color: var(--primary-color1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
@@ -5335,7 +5335,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-approach-section .approach-area .single-approach .approach-content-wrap .scroll-content-area .content h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 23px;
   font-weight: 700;
   line-height: 1.2;
@@ -5371,7 +5371,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-approach-section .approach-area .single-approach .approach-content-wrap .scroll-content-area .content ul li {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 400;
   line-height: 1.8;
@@ -5423,7 +5423,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .logo-section .logo-wrap .logo-title h6 {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
@@ -5508,7 +5508,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .testimonial-card-wrapper .testimonial-card p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 22px;
   font-weight: 400;
   line-height: 1.9;
@@ -5527,7 +5527,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .testimonial-card-wrapper .testimonial-card .author-and-desig h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 23px;
   font-weight: 600;
   line-height: 1;
@@ -5876,7 +5876,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card .card-content h4 a {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 25px;
   font-weight: 600;
   line-height: 1.4;
@@ -5973,7 +5973,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .blog-card.style-2 .blog-card-img-wrap .date span strong {
   font-size: 22px;
   font-weight: 700;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   margin-bottom: 5px;
   display: block;
 }
@@ -6095,14 +6095,14 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-section .contact-content .contact-area .hotline-area .content h6 a {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+  font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
 }
 .contact-section .contact-content .social-area h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -6128,7 +6128,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-section .contact-content .social-area .social-list li a span {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -6187,7 +6187,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-section .contact-form-wrap .contact-form-area h3 {
   font-size: 25px;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 700;
   margin-bottom: 35px;
   padding-bottom: 10px;
@@ -6222,7 +6222,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .widget-title h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-weight: 800;
   line-height: 1;
@@ -6267,7 +6267,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .widget-title.two h3 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 35px;
   font-weight: 800;
   line-height: 1.2;
@@ -6324,7 +6324,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .menu-container .widget-list li a {
   color: rgba(var(--title-color-opc), 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 500;
   line-height: 1.3;
@@ -6484,7 +6484,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .subscribe-area h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 600;
   line-height: 1;
@@ -6527,7 +6527,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .social-area h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -6553,7 +6553,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-top .footer-widget .social-area .social-list li a span {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -6629,7 +6629,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .contact-area .hotline-area .content h6 a {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -6655,7 +6655,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-bottom .copyright-area p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -6690,7 +6690,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .footer-section .footer-bottom .footer-bottom-right ul li a {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
@@ -6931,7 +6931,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-banner-section .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 70px;
   font-weight: 900;
   line-height: 1.2;
@@ -7087,7 +7087,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-about-section .about-content-wrap .about-title h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
@@ -7165,7 +7165,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-about-section .about-content-wrap .about-countdown-wrap .single-countdown .countdown-area .number-and-arrow .number {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   display: flex;
   align-items: baseline;
@@ -7210,7 +7210,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-about-section .about-content-wrap .about-countdown-wrap .single-countdown .content p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 500;
   line-height: 1.6;
@@ -7251,7 +7251,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-about-section .about-feature-card .content h3 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
@@ -7372,7 +7372,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-service-section .sevices-wrap .single-services h5 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 0;
@@ -7840,7 +7840,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-process-section .process-slider-area .single-process .step .number h6 {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 500;
   line-height: 1;
@@ -7848,14 +7848,14 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-process-section .process-slider-area .single-process .step .number span {
   color: var(--primary-color1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 800;
   line-height: 1;
 }
 .home2-process-section .process-slider-area .single-process .content h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 700;
   line-height: 1.2;
@@ -8096,7 +8096,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-marketing-agency-section .marketing-agency-content .nav-and-tab-area .counter-wrap .single-countdown .number {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   display: flex;
   align-items: center;
@@ -8116,7 +8116,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-marketing-agency-section .marketing-agency-content .nav-and-tab-area .counter-wrap .single-countdown p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -8173,7 +8173,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-card2 .card-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 26px;
   font-weight: 600;
   line-height: 1.2;
@@ -8408,7 +8408,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-testimonial-section .testimonial-content .bottom-area .text p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 500;
   line-height: 1.3;
@@ -8445,7 +8445,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-testimonial-section .testimonial-wrap .testimonial-card2 > span {
   color: var(--primary-color1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
@@ -8479,7 +8479,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-testimonial-section .testimonial-wrap .testimonial-card2 .author-area .content h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 7px;
@@ -8654,7 +8654,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .pricing-card .pricing-top span {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 400;
   font-size: 20px;
   color: var(--text-color);
@@ -8664,7 +8664,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .pricing-card .pricing-top h2 {
   margin-bottom: 0;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 800;
   font-size: 50px;
   line-height: 44px;
@@ -8803,7 +8803,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .pricing-card .batch span {
   color: var(--white-color);
   text-align: center;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-style: italic;
   font-weight: 500;
@@ -8886,7 +8886,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .home2-pricing-plan-section .pricing-plan-tab-area nav .nav-tabs .nav-link {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 500;
   font-size: 17px;
   color: var(--title-color);
@@ -9036,7 +9036,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-contact-section .contact-content .social-area h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -9062,7 +9062,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-contact-section .contact-content .social-area .social-list li a span {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -9102,7 +9102,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-contact-section .contact-form-wrap h3 {
   font-size: 25px;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 700;
   margin-bottom: 35px;
   padding-bottom: 10px;
@@ -9217,7 +9217,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-banner-section .banner-content h1 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 70px;
   font-weight: 900;
   line-height: 1.2;
@@ -9292,7 +9292,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-banner-section .banner-content ul li {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 600;
   line-height: 1.2;
@@ -9456,14 +9456,14 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-process-section .process-card .process-card-top .number span {
   color: rgba(var(--title-color-opc), 0.05);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
 }
 .home3-process-section .process-card .content h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
@@ -9824,7 +9824,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .testimonial-card3 .author-area .content h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 23px;
   font-weight: 700;
   line-height: 1;
@@ -9904,7 +9904,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .testimonial-card3.style-2 > span {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 700;
   display: inline-block;
@@ -10015,7 +10015,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-testimonial-section .slider-btn-and-pagination-wrap .franctional-pagi2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 400;
 }
@@ -10029,13 +10029,13 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-testimonial-section .slider-btn-and-pagination-wrap .franctional-pagi2 .swiper-pagination-current {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 400;
 }
 .home3-testimonial-section .slider-btn-and-pagination-wrap .franctional-pagi2 .swiper-pagination-total {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 400;
 }
@@ -10091,7 +10091,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-feature-section .feature-content-wrap .single-feature .content h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -10214,7 +10214,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home3-newsletter-section .newsletter-wrapper .newsletter-form-area h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -10260,7 +10260,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   border-radius: unset;
   box-shadow: none;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   background-color: transparent;
   font-size: 20px;
   font-weight: 600;
@@ -10707,7 +10707,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-banner-section .scroll-text h2 {
   white-space: nowrap;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 75px;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -10758,7 +10758,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-about-section .about-content-wrap .about-section-title h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 58px;
   font-weight: 800;
   line-height: 1.2;
@@ -10881,7 +10881,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
 }
 .home4-about-section .about-coundown-area .single-countdown .number h2 {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 150px;
   font-weight: 900;
   letter-spacing: 4.5px;
@@ -10901,7 +10901,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .home4-about-section .about-coundown-area .single-countdown .number span {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 150px;
   font-weight: 900;
   letter-spacing: 4.5px;
@@ -11291,7 +11291,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-experience-section .experience-card-wrap .single-experience .content h4 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
@@ -11347,7 +11347,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-experience-section .experience-percentage-wrap .eg-progress-wrap .eg-progress-bar-single .eg-progress-bar-title h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 18px;
@@ -11371,7 +11371,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: var(--white-color);
   font-size: 14px;
   font-weight: 500;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   top: -30px;
   right: 0;
@@ -11782,7 +11782,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .feature-card4 .content h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 700;
   line-height: 1.2;
@@ -11885,7 +11885,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-process-section .process-bottom-area .process-bottom-title h2 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 58px;
   font-weight: 800;
   line-height: 1.3;
@@ -12068,7 +12068,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-contact-section .marquee-area h6 {
   color: rgba(255, 255, 255, 0.5);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 35px;
   font-weight: 500;
   line-height: 1;
@@ -12246,7 +12246,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-award-section .sevices-wrap2 .single-services .content h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
@@ -12401,7 +12401,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .teams-card .card-content h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 700;
   line-height: 1.2;
@@ -12569,7 +12569,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-testimonial-section .testimonial-wrap .testimonial-card2 .content > span {
   color: var(--primary-color1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
@@ -12599,7 +12599,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-testimonial-section .testimonial-wrap .testimonial-card2 .content .author-name-desig h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 7px;
@@ -12811,7 +12811,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .blog-card2 .blog-card-img-wrap .date span strong {
   font-size: 22px;
   font-weight: 700;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   margin-bottom: 5px;
   display: block;
 }
@@ -12917,7 +12917,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-card2 .blog-card-content-wrap .blog-card-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 27px;
   font-weight: 600;
   line-height: 1.4;
@@ -13210,7 +13210,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-top-section .content h2 a {
   color: rgba(var(--text-color-opc), 0.5);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 110px;
   font-weight: 400;
   line-height: 1;
@@ -13277,7 +13277,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .widget-title h4 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 800;
   line-height: 1;
@@ -13302,7 +13302,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget h2 a {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 50px;
   font-weight: 600;
   line-height: 1.2;
@@ -13378,7 +13378,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .menu-container .widget-list li a {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
@@ -13441,7 +13441,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .social-area h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -13464,7 +13464,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .social-area .social-list li a span {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -13502,7 +13502,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .footer-author-area .author-content .author-name-desig h6 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 600;
   line-height: 1;
@@ -13510,14 +13510,14 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .footer-author-area .author-content .author-name-desig span {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
 }
 .home4-footer-section .home4-footer-wrap .footer-top .footer-widget .footer-author-area .author-content p {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-style: italic;
   font-weight: 500;
@@ -13577,7 +13577,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-bottom .copyright-area p {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -13612,7 +13612,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section .home4-footer-wrap .footer-bottom .footer-bottom-right ul li a {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
@@ -13816,7 +13816,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home4-footer-section.style-2 .contact-area h2 a {
   color: rgba(var(--text-color-opc), 0.2);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 55px;
   font-weight: 700;
   line-height: 1;
@@ -13909,7 +13909,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-banner-section .banner-content h1 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 70px;
   font-weight: 900;
   line-height: 1.2;
@@ -14202,7 +14202,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .partnership-area .single-pertner span {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
@@ -14258,7 +14258,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 
 .partnership-area .total-partner a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 400;
   display: flex;
@@ -14301,7 +14301,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-about-section .about-content .eg-progress-wrap .eg-progress-bar-single .eg-progress-bar-title h6 {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 18px;
@@ -14325,7 +14325,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 500;
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   top: -30px;
   right: 0;
@@ -14391,7 +14391,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-about-section .about-content .about-countdown-area ul .single-countdown .content .number {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   line-height: 1;
   display: flex;
   align-items: baseline;
@@ -14634,7 +14634,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-services-section .services-card .services-content .title-category h3 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 2px;
@@ -14657,7 +14657,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-services-section .services-card .services-content .title-category span {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 500;
   padding-left: 37px;
@@ -14805,7 +14805,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   justify-content: center;
 }
 .home5-why-choose-section .why-choose-content .about-coundown-area .single-countdown .number h2 {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 150px;
   font-weight: 900;
   letter-spacing: 4.5px;
@@ -14825,7 +14825,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .home5-why-choose-section .why-choose-content .about-coundown-area .single-countdown .number span {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 150px;
   font-weight: 900;
   letter-spacing: 4.5px;
@@ -15076,7 +15076,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .team-card2 .team-content h4 {
   margin-bottom: 3px;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 700;
 }
@@ -15211,7 +15211,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-testimonial-section .testimonial-wrap .testimonial-card2 .content > span {
   color: var(--primary-color1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
@@ -15249,7 +15249,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-testimonial-section .testimonial-wrap .testimonial-card2 .content .author-name-desig .content h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 7px;
@@ -15411,7 +15411,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .portfolio-card .portfolio-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 600;
   line-height: 1.4;
@@ -15547,7 +15547,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home5-contact-section .marquee-area h6 {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 35px;
   font-weight: 500;
   line-height: 1;
@@ -15605,7 +15605,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .breadcrumb-section .banner-wrapper .banner-content h1 {
   color: var(--white-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 56px;
   font-weight: 800;
   line-height: 1.2;
@@ -15727,7 +15727,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-details-content h3 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 33px;
   font-weight: 700;
   line-height: 26px;
@@ -15761,7 +15761,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-details-content .features li {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -15805,7 +15805,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-sidebar .case-info-wrap h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 0;
@@ -15849,7 +15849,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-sidebar .case-info-wrap .case-info li .content h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 0;
@@ -15872,7 +15872,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-sidebar .social-share-area h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 22px;
   font-weight: 600;
   text-decoration-line: underline;
@@ -15894,7 +15894,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .case-study-details-page .case-sidebar .social-share-area ul li a {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   display: flex;
@@ -15982,7 +15982,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .details-navigation .single-navigation .content p {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -16027,7 +16027,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .pagination-area .paginations .page-item a {
   color: rgba(var(--text-color-opc), 0.5);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 700;
   line-height: 1;
@@ -16075,7 +16075,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-area .widget-title {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 22px;
   font-weight: 700;
   line-height: 0.9;
@@ -16205,7 +16205,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-area .single-widget .recent-post-widget .recent-post-content h6 a {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -16324,7 +16324,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .sidebar-area .single-widget .social-list li a span {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -16355,7 +16355,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 ========================================*/
 .faq-section .verticle-text h2 {
   color: rgba(var(--title-color-opc), 0.1);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 100px;
   font-weight: 900;
   line-height: 1;
@@ -16398,7 +16398,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-page .contact-area .title {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 600;
   line-height: 1.2;
@@ -16409,7 +16409,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-page .contact-area .address span {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
@@ -16457,7 +16457,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .contact-page .contact-area .working-hour .content h6 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -16580,7 +16580,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .product-card .product-card-content h6 a {
   color: var(--title-color);
   font-size: 25px;
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.3;
@@ -16597,7 +16597,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .product-card .product-card-content span {
   color: var(--title-color);
   font-size: 18px;
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -16779,7 +16779,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .product-details-top-section .product-details-content h1 {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 35px;
   font-weight: 600;
   line-height: 1.2;
@@ -16827,7 +16827,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .product-details-top-section .product-details-content .rating-review .rating a {
   color: rgba(var(--title-color-opc), 0.5);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 400;
   transition: 0.5s;
@@ -17145,7 +17145,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 600;
 }
@@ -17193,7 +17193,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 15px;
   font-weight: 600;
 }
@@ -17282,7 +17282,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 24px;
   font-weight: 600;
 }
@@ -17423,7 +17423,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .cart-page .cart-shopping-wrapper .cart-table tbody tr td .product-info-wrapper .product-info-content h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 700;
   line-height: 1.4;
@@ -17620,7 +17620,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .cart-page .cart-order-sum-area .order-summary-wrap .order-summary-list li .order-info p {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -17628,7 +17628,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .cart-page .cart-order-sum-area .order-summary-wrap .order-summary-list li .order-info strong {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -17665,7 +17665,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   background-color: var(--primary-color2);
   border: 1px solid var(--dark-title-color);
   color: var(--dark-white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 0.48px;
@@ -17862,7 +17862,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 10px;
 }
 .checkout-page .cart-body ul .single-item .item-area .main-item .content span {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 600;
   font-size: 14px;
   color: var(--text-color);
@@ -18043,7 +18043,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .error-page .error-content h2 {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 95px;
   font-weight: 600;
   text-transform: uppercase;
@@ -18149,7 +18149,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .portfolio-details-page .portfolio-details-content h3 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 33px;
   font-weight: 700;
   line-height: 26px;
@@ -18193,7 +18193,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .portfolio-details-page .portfolio-details-content .features li {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -18260,7 +18260,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .portfolio-details-page .portfolio-sidebar .portfolio-info-wrap .portfolio-info li .content h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 0;
@@ -18293,7 +18293,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .portfolio-details-page .portfolio-details-banner .portfolio-details-banner-content h2 {
   color: var(--white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 45px;
   font-weight: 800;
   line-height: 1.1;
@@ -18318,7 +18318,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 ========================================*/
 .service-details-page .service-details-top-area .service-details-top-content h2 {
   color: var(--title-color);
-  /* font-family: var(--font-hankenGrotesk); */
+  /*font-family: "bahij !important"; */
   font-size: 60px;
   font-weight: 800;
   line-height: 1;
@@ -18374,7 +18374,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-details-page .service-details-top-area .service-details-top-content .key-features li {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 500;
   line-height: 1.2;
@@ -18440,7 +18440,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-details-feature-section .service-feature-list .single-feature .content h5 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
@@ -18498,7 +18498,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .blog-details-thumb .batch span {
   color: var(--dark-white-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-style: italic;
   font-weight: 500;
@@ -18645,7 +18645,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .blog-details .blog-details-content h3 {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 800;
   font-size: 35px;
   line-height: 1.2;
@@ -18699,7 +18699,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .blog-details-content ul li {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 17px;
   font-weight: 500;
   line-height: 1.2;
@@ -18784,7 +18784,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 45px;
 }
 .blog-details .blog-details-content .blockquote-author {
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-weight: 600;
   font-size: 30px;
   line-height: 1;
@@ -18916,7 +18916,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .blog-tag-and-social-area .blog-tag h6 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
@@ -18934,7 +18934,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .blog-tag-and-social-area .blog-tag ul li a {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -18961,7 +18961,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .blog-tag-and-social-area .social-list li a span {
   color: var(--text-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -18989,7 +18989,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .blog-details .comment-title h4 {
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 0;
@@ -19049,7 +19049,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 18px;
   font-weight: 600;
 }
@@ -19121,7 +19121,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .blog-details .inquiry-form .title h4 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+ font-family: "bahij !important";
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 0;

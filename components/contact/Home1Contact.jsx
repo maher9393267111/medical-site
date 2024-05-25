@@ -46,9 +46,10 @@ console.log("TRANSLATE___----___" ,t)
     try {
       let data = {
         ...state,
+        to:contact?.email
       };
 
-      if (!state.phone && !state.name && !state.email && !state.message) {
+      if (!state.phone && !state.name && !state.email && !state.message && !contact.email) {
         console.log("ERROR CONDITION @@@@@@");
         setstate({ ...state, error: true });
       //  message.info("يرجا تعبئة كافة الحقول");
