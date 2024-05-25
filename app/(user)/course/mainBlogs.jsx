@@ -219,7 +219,7 @@ return (
                     <ul className="category">
                         
                       <li>
-                        <Link href="/blog">
+                        <Link  href={`/course/${blog?.slug.current}`} >
                         {blog?.categories && ( lang === 'en' ? blog?.categories[0]?.title : blog?.categories[0]?.titlear )}
                         </Link>
                      </li>

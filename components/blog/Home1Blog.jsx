@@ -91,7 +91,7 @@ return (
                   <div className="blog-meta">
                     <ul className="category">
                       <li>
-                        <Link className="arabic !text-xl" href="/blog">   
+                        <Link className="arabic !text-xl" href={`/course?category=${blog?.categories[0]?.title}`} >   
                         {blog?.categories && ( lang === 'en' ? blog?.categories[0]?.title : blog?.categories[0]?.titlear )}
                         </Link>
                       </li>
