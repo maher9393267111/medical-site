@@ -3563,7 +3563,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .sidebar-menu .sidebar-menu-wrap .main-menu > li > a {
   border-bottom: 1px solid var(--border-color);
   color: var(--title-color);
-  font-family: var(--font-hankenGrotesk);
+  font-family: "bahij !important";
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
