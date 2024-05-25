@@ -38,35 +38,43 @@ export const homebanner = defineType({
         }),
   
 
+defineField({
+
+  name: 'images',
+  title: 'Images gallery',
+  type: 'array',
+  of: [{ type: 'image' }]
+}),
+
 
 
 
  
  
-	defineField({
-        name: "video",
-        title: "Video",
-        type: "file",
-        options: {
-            accept: "video/*",
-        },
-    }),
+	// defineField({
+  //       name: "video",
+  //       title: "Video",
+  //       type: "file",
+  //       options: {
+  //           accept: "video/*",
+  //       },
+  //   }),
 
 
 
 
-    defineField({
-      name: "image",
-      type: "image",
-      options: { hotspot: true },
-      fields: [
-        defineField({
-          name: "alt",
-          type: "string",
-          title: "Alternative text",
-        }),
-      ],
-    }),
+  //   defineField({
+  //     name: "image",
+  //     type: "image",
+  //     options: { hotspot: true },
+  //     fields: [
+  //       defineField({
+  //         name: "alt",
+  //         type: "string",
+  //         title: "Alternative text",
+  //       }),
+  //     ],
+  //   }),
   ],
   icon: DocumentTextIcon,
   preview: {

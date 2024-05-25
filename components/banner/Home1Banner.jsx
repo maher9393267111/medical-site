@@ -96,18 +96,20 @@ const Home1Banner = ({data}) => {
               <div className="banner-img-wrap">
                 <Swiper {...settings} className="swiper banner-img-slider">
                   <div className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                      <img 
-                          src={urlFor(data?.image).url()} 
+
+                  {data?.images?.map((img, index) => {
+                  return (
+                    <SwiperSlide key={index} className="swiper-slide">
+                      <img
+                      className="!h-[400px] !w-full  object-cover" 
+                          src={urlFor(img).url()} 
                       // src="assets/img/home1/banner-img1.jpg"
                        alt="" />
                     </SwiperSlide>
-                    {/* <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img2.jpg" alt="" />
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img3.jpg" alt="" />
-                    </SwiperSlide> */}
+                  )
+                  })}
+
+
                   </div>
                 </Swiper>
                   {/* <video width={600} height={400} src={data?.video} autoPlay muted></video> */}
