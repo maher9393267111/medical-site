@@ -56,7 +56,7 @@ const contactquery = groq`
 
 export const metadata = {
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/logo.png",
   },
 }
 const AboutPage = async () => {

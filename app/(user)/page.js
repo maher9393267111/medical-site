@@ -149,7 +149,7 @@ const aboutOnequery = groq`
 
 export const metadata = {
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/logo.png",
   },
 };
 const HomePage = async () => {

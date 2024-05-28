@@ -23,9 +23,10 @@ const contactquery = groq`
 
 export const metadata = {
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/smawilogo.png",
   },
 };
+
 const Services = async () => {
   const services = await client.fetch(query);
   const contact = await client.fetch(contactquery);

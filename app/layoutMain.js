@@ -1,6 +1,7 @@
 'use client'
 
 import React ,{useCallback} from 'react'
+import Head from 'next/head'
 import clsx from 'clsx'
 // import { Roboto_Flex } from 'next/font/google'
 // import { IBM_Plex_Sans_Arabic } from 'next/font/google'
@@ -9,6 +10,7 @@ import clsx from 'clsx'
 
 import { LanguageProvider ,useLanguageContext } from './languageContext'
 import TopNav from './topNav'
+// import head from './(user)/head'
 
 
 // const roboto = Roboto_Flex({
@@ -38,6 +40,18 @@ const LayoutComp = ({ programs, programsArabic, contact, children }) => {
           <html 
           lang={htmlLang}
           >
+
+   <head>
+         <link
+          rel="icon"
+          href="/logo.png"
+          type="image/x-icon"
+          sizes="16x16"
+       />
+        <title>QMED - Software, SaaS &amp; Digital Agency Template</title>
+      </head>  
+
+
             <body
 
             //  className={clsx(fontName, fontVariable)}
