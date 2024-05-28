@@ -103,8 +103,10 @@ console.log("TRANSLATE--->" , t)
               <Link href="/" className="logo-dark">
                 <img
                   alt="image"
-                  className="img-fluid"
-                  src="/assets/img/logo.svg"
+                  // className="img-fluid"
+                  // src="/assets/img/logo.svg"
+                  className="img-fluid !-h-[40px] !w-[133px]"
+                  src="/logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -985,18 +987,21 @@ console.log("TRANSLATE--->" , t)
         className={`header-area style-1 ${state.scrollY > 10 ? "sticky" : ""}`}
       >
         <div className="container d-flex flex-nowrap align-items-center justify-content-between">
-          <div className="company-logo">
+          <div className="company-logo ">
             <Link href="/" className="logo-dark">
               <img
+            
                 alt="image"
-                className="img-fluid"
-                src="/assets/img/logo.svg"
+                className="img-fluid !-h-[40px] !w-[133px]"
+                src="/logo.png"
+                // src="/assets/img/logo.svg"
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
                 alt="image"
                 className="img-fluid"
+                // src="/logo.png"
                 src="/assets/img/logo-light.svg"
               />
             </Link>

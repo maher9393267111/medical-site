@@ -105,15 +105,19 @@ const Header2 = ({data}) => {
               <Link href="/" className="logo-dark">
                 <img
                   alt="image"
-                  className="img-fluid"
-                  src="/assets/img/logo.svg"
+                  // className="img-fluid"
+                  // src="/assets/img/logo.svg"
+                  className="img-fluid !-h-[40px] !w-[133px]"
+                  src="/logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
                   alt="image"
-                  className="img-fluid"
-                  src="/assets/img/logo-light.svg"
+                  // className="img-fluid"
+                  // src="/assets/img/logo-light.svg"
+                  className="img-fluid !-h-[40px] !w-[133px]"
+                  src="/logo.png"
                 />
               </Link>
 
@@ -987,8 +991,10 @@ const { id, label, link, icon, subMenu } = data;
             <Link href="/" className="logo-dark">
               <img
                 alt="image"
-                className="img-fluid"
-                src="/assets/img/logo-light.svg"
+                // className="img-fluid"
+                // src="/assets/img/logo-light.svg"
+                className="img-fluid !-h-[40px] !w-[133px]"
+                src="/smawilogo.png"
               />
               
             </Link>
