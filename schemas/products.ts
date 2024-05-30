@@ -14,14 +14,14 @@ export default defineType({
         defineField({
 			name: 'titlear',
 			title: 'Product Title Arabic',
-			type: 'number',
+			type: 'string',
 		}),
 
 
         defineField({
 			name: 'price',
 			title: 'Product Price',
-			type: 'string',
+			type: 'number',
 		}),
 
 
